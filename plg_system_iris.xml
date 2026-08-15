@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	SERVEUR DE MISE A JOUR — Systeme - Iris
+
+	Publie a l'adresse https://magnytu2.github.io/updates/plg_system_iris.xml
+	Cette adresse doit correspondre AU CARACTERE PRES a celle inscrite dans le
+	manifeste de l'extension, sous <updateservers>. Une difference, meme un
+	slash final, et Joomla ne cherche jamais de mise a jour — sans message.
+
+	LA SOMME DE CONTROLE CHANGE A CHAQUE VERSION. Republier un zip sans refaire
+	le hash casse la mise a jour pour tout le monde.
+
+	LE NUMERO DE VERSION NE RECULE JAMAIS. Joomla ordonne les versions ; un
+	client en 1.0.7 ne verrait pas une 1.0.0, et celui qui l'installerait
+	reviendrait en arriere sans le savoir.
+-->
+<updates>
+	<update>
+		<name>Systeme - Iris</name>
+		<description>Pastille d'utilisation des medias dans le gestionnaire de medias, et rapport des fichiers inutilises.</description>
+		<element>iris</element>
+		<type>plugin</type>
+		<folder>system</folder>
+		<client>site</client>
+		<version>1.7.1</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/plg_system_iris_1.7.1.zip</downloadurl>
+		</downloads>
+		<sha256>8feefbd87f0db28ba2fbe2aaf2316f99c410712db32f9066685d7dc78e00d586</sha256>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>Joomanji</maintainer>
+		<maintainerurl>https://joomanji.eu</maintainerurl>
+		<infourl title="Systeme - Iris">https://joomanji.eu</infourl>
+		<targetplatform name="joomla" version="[456]\."/>
+		<php_minimum>8.1</php_minimum>
+	</update>
+</updates>
