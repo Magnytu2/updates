@@ -4,15 +4,12 @@
 
 	Publie a l'adresse https://magnytu2.github.io/updates/plg_ajax_sitemonitor.xml
 	Cette adresse doit correspondre AU CARACTERE PRES a celle inscrite dans le
-	manifeste de l'extension, sous <updateservers>. Une difference, meme un
-	slash final, et Joomla ne cherche jamais de mise a jour — sans message.
+	manifeste de l'extension, sous <updateservers>.
 
-	LA SOMME DE CONTROLE CHANGE A CHAQUE VERSION. Republier un zip sans refaire
-	le hash casse la mise a jour pour tout le monde.
-
-	LE NUMERO DE VERSION NE RECULE JAMAIS. Joomla ordonne les versions ; un
-	client en 1.0.7 ne verrait pas une 1.0.0, et celui qui l'installerait
-	reviendrait en arriere sans le savoir.
+	NUMEROTATION REPRISE A 1.0.0-rc1 le 15 aout 2026, a la demande de Cyrille.
+	La suite ira 1.0.1-rc1, 1.0.2-rc1, etc. Les anciens numeros (0.30.0 pour le
+	module, 0.18.0 pour le client, 0.9.1 pour la tache) sont tous INFERIEURS a
+	1.0.0-rc1 : aucun site n'est laisse en arriere.
 -->
 <updates>
 	<update>
@@ -22,13 +19,13 @@
 		<type>plugin</type>
 		<folder>ajax</folder>
 		<client>site</client>
-		<version>0.18.0</version>
+		<version>1.0.0-rc1</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/plg_ajax_sitemonitor_v0.18.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/plg_ajax_sitemonitor-1.0.0-rc1.zip</downloadurl>
 		</downloads>
-		<sha256>e5264855929ca38045717f1fa404697fc057929651ee8924710518ee4ad39b79</sha256>
+		<sha256>964c1577be8d71782323af43ae503d85efaded0669a620ce972c450fb7ecc49c</sha256>
 		<tags>
-			<tag>stable</tag>
+			<tag>rc</tag>
 		</tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>
