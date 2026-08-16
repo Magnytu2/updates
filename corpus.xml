@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-	SERVEUR DE MISE A JOUR — Corpus
-
-	Publie a l'adresse https://magnytu2.github.io/updates/corpus.xml
-	Cette adresse doit correspondre AU CARACTERE PRES a celle inscrite dans
-	corpus/templateDetails.xml, sous <updateservers>.
-
-	1.0.9-rc1 — 15 aout 2026. Premiere livraison qui porte la NOUVELLE adresse
-	a l'interieur du paquet. La 1.0.8-rc1 publiee ce matin annoncait encore
-	joomanji.eu : un site qui l'installait n'aurait plus jamais rien trouve.
-
-	La comparaison de Joomla est celle de PHP :
-	1.0.0-beta1 < 1.0.0-rc1 < 1.0.0 < 1.0.1-rc1. Le canal  est vu par les
-	sites regles sur Beta comme sur RC — elargir le canal, jamais le retrecir.
--->
 <updates>
 	<update>
 		<name>Corpus</name>
-		<description>Template Joomla 6 — une grille de douze colonnes, accessible RGAA 4.1</description>
+		<description>Template Joomla 6 - une grille de douze colonnes, accessible RGAA 4.1</description>
 		<element>corpus</element>
 		<type>template</type>
 		<client>site</client>
 		<folder></folder>
-		<version>1.0.9-rc1</version>
+		<version>1.0.10-rc1</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/corpus-1.0.9-rc1.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/corpus-1.0.10-rc1.zip</downloadurl>
 		</downloads>
-		<sha256>31216191d8180da6317a366ca99e1f6a35a2155e3be429c87df95011fafcadf5</sha256>
+		<sha256>4e8a55897771eae2e5951ba888d5af6ef26c192759f834a93d8c0360dd028b9c</sha256>
 		<tags>
 			<tag>rc</tag>
 		</tags>
