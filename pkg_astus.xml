@@ -22,6 +22,7 @@
 		<description>Astus - assistant IA agentique et suite SEO pour Joomla.</description>
 		<element>pkg_astus</element>
 		<type>package</type>
+		<client>site</client>
 		<version>2.0.1-rc2</version>
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.0.1-rc2.zip</downloadurl>
