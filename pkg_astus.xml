@@ -7,7 +7,8 @@
 	<updateservers> dans le manifeste de l'extension.
 
 	NUMEROTATION REMISE A PLAT le 17 aout 2026 : les sept produits Joomanji
-	repartent tous de 2.0.0-rc2, et la suite ira 2.0.1-rc2, 2.0.2-rc2, etc.
+	sont en 2.0.1-rc2. Le 2.0.0-rc2 n'avait renumerote que l'emballage des
+	paquets : les extensions contenues portaient encore leurs anciens numeros.
 
 	POURQUOI 2.0.0 ET NON 1.0.0. Un numero ne doit jamais reculer : Joomla
 	compare d'abord la partie chiffree, et ne regarde le suffixe -rc que si elle
@@ -21,11 +22,11 @@
 		<description>Astus - assistant IA agentique et suite SEO pour Joomla.</description>
 		<element>pkg_astus</element>
 		<type>package</type>
-		<version>2.0.0-rc2</version>
+		<version>2.0.1-rc2</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.0.0-rc2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.0.1-rc2.zip</downloadurl>
 		</downloads>
-		<sha256>43030714277d093a90c037e4525e43269119c99a2bc53cf4a441fe58d4f36e38</sha256>
+		<sha256>815e9f760e32f1e8518b19825639272b7bc49096c1c1f990cc51527e076c6206</sha256>
 		<tags>
 			<tag>rc</tag>
 		</tags>
