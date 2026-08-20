@@ -23,11 +23,11 @@
 		<element>pkg_corpus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.0.1-rc2</version>
+		<version>2.0.2-rc2</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.0.1-rc2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.0.2-rc2.zip</downloadurl>
 		</downloads>
-		<sha256>9de36a18e75f432b04876a09b25022a6e6af4c485793f5864987ee40b8fe346f</sha256>
+		<sha256>1abd548aaa2ac41574e98fb1d2dc8b983d636e2cd3197faabc47dfd8f125bde9</sha256>
 		<tags>
 			<tag>rc</tag>
 		</tags>
