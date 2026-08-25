@@ -2,7 +2,7 @@
 
 Servi par GitHub Pages à l'adresse **https://magnytu2.github.io/updates/**
 
-## Les sept produits
+## Les huit produits
 
 | produit | fichier xml | où l'installer |
 |---|---|---|
@@ -13,6 +13,7 @@ Servi par GitHub Pages à l'adresse **https://magnytu2.github.io/updates/**
 | **Oculus** — module d'administration | [`mod_oculus.xml`](mod_oculus.xml) | le site **central** |
 | **Oculus** — tâche planifiée | [`plg_task_oculus.xml`](plg_task_oculus.xml) | le site **central** |
 | **Oculus** — client ajax | [`plg_ajax_sitemonitor.xml`](plg_ajax_sitemonitor.xml) | chaque site **surveillé** |
+| **Corpus — module de démarrage** | [`mod_corpus_start.xml`](mod_corpus_start.xml) | une fois, puis désinstallable |
 
 **Aucun numéro de version ne figure ici, et c'est volontaire.** Une table de
 versions recopiée à la main se périme au premier oubli, et annonce alors le
@@ -33,6 +34,20 @@ jour pour tout le monde.
 Le numéro de version ne recule jamais. Joomla compare d'abord la partie
 chiffrée et ne regarde le suffixe `-rc` **que si elle est identique** :
 `1.0.0-rc2` est inférieur à `1.8.0-rc1`.
+
+## Deux numérotations, et c'est voulu
+
+Les **sept produits vendus** suivent `2.0.x-rc2`. Ce point de départ n'est pas
+arbitraire : `1.0.0-rc2` aurait été *inférieur* à Astus 1.4.34-rc1 et à Iris
+1.8.0-rc1, et ces installations n'auraient plus jamais rien vu.
+
+**`mod_corpus_start` garde sa série `0.x`, sans suffixe.** Il n'est pas fini, et
+son numéro le dit ; il passera en `1.0.0` le jour où il le sera. Il a son propre
+`element`, Joomla ne le compare à aucun autre produit. Piège de cette série :
+`version_compare` lit `0.10.2` comme **supérieur** à `0.9.4` — dix est plus
+grand que neuf, ce ne sont pas des décimales.
+
+Ce module est **indépendant du paquet `pkg_corpus`** et n'y entrera pas.
 
 ## Fichiers hérités
 
