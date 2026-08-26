@@ -35,15 +35,19 @@ Le numéro de version ne recule jamais. Joomla compare d'abord la partie
 chiffrée et ne regarde le suffixe `-rc` **que si elle est identique** :
 `1.0.0-rc2` est inférieur à `1.8.0-rc1`.
 
-## Deux numérotations, et c'est voulu
+## Deux suites de numéros, et c'est voulu
 
 Les **sept produits vendus** suivent `2.0.x-rc2`. Ce point de départ n'est pas
 arbitraire : `1.0.0-rc2` aurait été *inférieur* à Astus 1.4.34-rc1 et à Iris
 1.8.0-rc1, et ces installations n'auraient plus jamais rien vu.
 
-**`mod_corpus_start` garde sa série `0.x`, sans suffixe.** Il n'est pas fini, et
-son numéro le dit ; il passera en `1.0.0` le jour où il le sera. Il a son propre
-`element`, Joomla ne le compare à aucun autre produit. Piège de cette série :
+**`mod_corpus_start` a sa propre suite**, et il y a droit : il a son propre
+`element`, Joomla ne le compare à aucun autre produit. Il est resté en `0.x`
+tout le temps de sa construction, puis est passé en **`1.0.0-rc2` le 26 août
+2026**, quand il a été jugé prêt pour les sous-domaines de démonstration. Il
+porte donc le même suffixe `-rc2` que les autres, sans suivre leur `2.0.x`.
+
+Piège de l'ancienne série, à connaître pour relire les vieux paquets :
 `version_compare` lit `0.10.2` comme **supérieur** à `0.9.4` — dix est plus
 grand que neuf, ce ne sont pas des décimales.
 
