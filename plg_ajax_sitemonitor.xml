@@ -20,6 +20,11 @@
 	2.0.2-rc2, le 27 aout 2026 : le garde-fou de sauvegarde des mises a jour
 	a distance passe de 24 h a 7 jours. La regle vit dans le plugin client,
 	elle ne s'applique a un site qu'une fois ce plugin mis a jour.
+
+	ETIQUETTE stable, le 27 aout 2026. Elle etait a rc, et c'est ce qui
+	filtre, pas le suffixe du numero : la Stabilite minimale de Joomla vaut
+	Stable (4) par defaut, rc vaut 3, donc un site laisse au reglage
+	d'origine ne voyait JAMAIS la mise a jour. Les numeros gardent -rc2.
 -->
 <updates>
 	<update>
@@ -34,7 +39,7 @@
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/plg_ajax_sitemonitor-2.0.2-rc2.zip</downloadurl>
 		</downloads>
 		<sha256>93fbb75322393f23f9fdf731079eef7abd00818ccf40fca110a5df3445129f61</sha256>
-		<tags><tag>rc</tag></tags>
+		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>
 		<infourl title="Oculus Client">https://joomanji.eu</infourl>
