@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	SERVEUR DE MISE A JOUR : Oculus Client
+
+	Publie a https://magnytu2.github.io/updates/pkg_oculus_agent.xml
+	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
+	<updateservers> dans le manifeste de l'extension.
+
+	2.1.0, le 27 aout 2026. Trois changements d'un coup :
+
+	- Fin du suffixe -rc. Les numeros sont desormais des numeros stables.
+	  version_compare place 2.1.0 au-dessus de 2.0.2-rc2 : rien ne recule.
+	- Etiquette stable. Elle etait a rc, et c'est elle qui filtre, pas le
+	  suffixe du numero : la Stabilite minimale de Joomla vaut Stable (4) par
+	  defaut, rc vaut 3, donc un site au reglage d'origine ne voyait rien.
+	- Le plugin client s'appelle desormais « oculusclient ». Il repond encore
+	  a l'ancien nom « sitemonitor », le temps que le parc migre.
+
+	2.1.1, le 27 aout 2026, CORRECTIF IMPORTANT. La 2.1.0 recopiait le token de
+	l'ancien plugin mais PAS l'autorisation des mises a jour a distance : Joomla
+	ecrit les valeurs par defaut du manifeste a l'installation, « Autoriser les
+	mises a jour a distance » valait donc 0, et zero n'etant pas vide, l'ancien 1
+	ne l'ecrasait pas. Le site se retrouvait muet aux mises a jour a distance.
+	La reprise recopie desormais tout, une seule fois, marqueur a l'appui.
+	NE PAS DEPLOYER LA 2.1.0.
+
+	POURQUOI CE FICHIER S'APPELLE « agent » ET PAS « client ». Le paquet installe
+	sur les 21 sites du parc porte l'identifiant technique pkg_oculus_agent, alors
+	qu'il s'affiche « Oculus Client ». Joomla apparie une mise a jour sur
+	l'identifiant, jamais sur le nom affiche : un paquet publie sous
+	pkg_oculus_client n'atteint aucun de ces sites, en silence. Les deux fichiers
+	coexistent donc, pkg_oculus_agent.xml pour le parc, pkg_oculus_client.xml pour
+	les rares sites equipes de l'autre paquet.
+-->
+<updates>
+	<update>
+		<name>Oculus Client</name>
+		<description>Paquet Oculus Client (client + passerelle maintenance), a installer sur chaque site surveille.</description>
+		<element>pkg_oculus_agent</element>
+		<type>package</type>
+		<client>site</client>
+		<version>2.1.1</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_oculus_agent-2.1.1.zip</downloadurl>
+		</downloads>
+		<sha256>e6a334f50f2555a8366d2f20f539bcd1b766170e9313e7218bb71a2362c2aaae</sha256>
+		<tags><tag>stable</tag></tags>
+		<maintainer>Joomanji</maintainer>
+		<maintainerurl>https://joomanji.eu</maintainerurl>
+		<infourl title="Oculus Client">https://joomanji.eu</infourl>
+		<targetplatform name="joomla" version="[456]\."/>
+		<php_minimum>8.1</php_minimum>
+	</update>
+</updates>
