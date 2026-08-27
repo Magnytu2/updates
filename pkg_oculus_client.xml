@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SERVEUR DE MISE A JOUR : Oculus - Tache planifiee
+	SERVEUR DE MISE A JOUR : Oculus Client
 
-	Publie a https://magnytu2.github.io/updates/plg_task_oculus.xml
+	Publie a https://magnytu2.github.io/updates/pkg_oculus_client.xml
 	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
 	<updateservers> dans le manifeste de l'extension.
 
@@ -18,21 +18,20 @@
 -->
 <updates>
 	<update>
-		<name>Oculus - Tache planifiee</name>
-		<description>Plugin de tache Oculus : interroge automatiquement les sites surveilles.</description>
-		<element>oculus</element>
-		<type>plugin</type>
-		<folder>task</folder>
+		<name>Oculus Client</name>
+		<description>Paquet Oculus Client (client + passerelle maintenance), a installer sur chaque site surveille.</description>
+		<element>pkg_oculus_client</element>
+		<type>package</type>
 		<client>site</client>
 		<version>2.1.0</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/plg_task_oculus-2.1.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_oculus_client-2.1.0.zip</downloadurl>
 		</downloads>
-		<sha256>2c75f119ba832f0fd97ff82d9c12ee8a4595e13634f538b70d6f19f33eb04988</sha256>
+		<sha256>4fd18202393f3730b845a992ad1b5e0d03e69ae29bfd12316dcc2ee9937cc3f9</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>
-		<infourl title="Oculus - Tache planifiee">https://joomanji.eu</infourl>
+		<infourl title="Oculus Client">https://joomanji.eu</infourl>
 		<targetplatform name="joomla" version="[456]\."/>
 		<php_minimum>8.1</php_minimum>
 	</update>
