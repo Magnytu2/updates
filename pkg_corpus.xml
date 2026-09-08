@@ -14,7 +14,14 @@
 	plus personne ne verrait de mise a jour. Une candidate porte toujours le
 	numero SUIVANT.
 
-	2.1.28, le 8 septembre 2026 au soir. CINQ CORRECTIFS DE LA 2.1.24, tous
+	2.1.29, le 8 septembre 2026 au soir. UNE RANGEE QUI NE PORTE QU'UNE ZONE
+	SUIT ENFIN SON ALIGNEMENT. Sa piste unique valait `auto` et `space-between`
+	n'avait rien a repartir : la boite epousait son contenu et restait collee au
+	debut, quel que soit le reglage. Elle s'etire desormais, et l'alignement du
+	contenu fait le reste. Mesure sur une barre de navigation qui ne porte que
+	son menu : centre a 1102 pour une rangee dont le centre exact est 1102.
+
+	2.1.28, le meme soir. CINQ CORRECTIFS DE LA 2.1.24, tous
 	visibles chez le client.
 
 	EN VUE MOBILE, LE LOGO PASSAIT SOUS LE MENU. En une colonne, la rangee
@@ -70,11 +77,11 @@
 		<element>pkg_corpus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.28</version>
+		<version>2.1.29</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.28.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.29.zip</downloadurl>
 		</downloads>
-		<sha256>e44e842a42647c5949edfa293f4b2c6e9732ee75dd7e3b0aceb99d5df1b120d3</sha256>
+		<sha256>ea373ef324e719cd4a8c3c47517a6c40657bc7ee512e36a0e749c6eaa40d061f</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
