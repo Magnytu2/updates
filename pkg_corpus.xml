@@ -14,41 +14,51 @@
 	plus personne ne verrait de mise a jour. Une candidate porte toujours le
 	numero SUIVANT.
 
+	2.1.49, le 16 septembre 2026. « IMAGE EN DESSOUS » RETROUVE SON TEXTE.
+
+	Correction d'un defaut introduit par la 2.1.48 elle-meme, le jour meme.
+
+	Les trois templates blog livres ne rangent pas l'image de la meme facon.
+	« Image a gauche » et « Image a droite » posent deux colonnes, l'image seule
+	dans la sienne ; « Image en dessous » n'en pose qu'une, ou l'image voisine
+	avec tout le texte. La 2.1.48 retirait le retrait de la colonne qui porte
+	l'image : juste pour les deux premiers, desastreux pour le troisieme, ou le
+	titre et l'introduction se collaient au bord de la carte.
+
+	Desormais, c'est la STRUCTURE qui choisit. Une colonne qui ne porte QUE
+	l'image perd son retrait ; une image qui PARTAGE sa colonne le deborde par
+	une marge negative, sur les cotes toujours, en haut ou en bas seulement si
+	elle y est la premiere ou la derniere. Les deux arrivent au meme dessin, et
+	le texte garde le sien.
+
+	COMPATIBILITE CASSIOPEIA CONTROLEE, a la demande de Cyrille. Sans template
+	blog affecte, la geometrie rendue est IDENTIQUE a celle de la 2.1.47, sur
+	les six combinaisons du vocabulaire du lien de menu : image-left,
+	image-right, image-bottom, image-alternate, no-card et aucune classe. Avec
+	un template, ces classes n'ont aucun effet, ce qui est le partage voulu
+	depuis le 14 septembre. Quinze combinaisons mesurees.
+
 	2.1.48, le 16 septembre 2026. LE TEMPLATE BLOG RETROUVE LE DESSIN DE CORPUS.
 
-	Deux defauts du template blog livre en 2.1.47, tous deux releves sur un site
-	en ligne puis mesures au banc.
+	L'image d'une vignette touche de nouveau le bord de la carte, et c'est
+	l'arrondi de la carte qui la rogne. Une vignette de liste n'a jamais porte
+	ni filet ni arrondi a elle.
 
-	L'IMAGE D'UNE VIGNETTE TOUCHE DE NOUVEAU LE BORD DE LA CARTE. Avec un
-	template, la figure descendait d'un cran et se retrouvait en retrait de seize
-	pixels : l'arrondi de la carte ne la rognait plus, et la vignette n'avait plus
-	le dessin des autres. Le retrait change de porteur, il passe de la vignette a
-	ses colonnes ; celle qui porte l'image ne le prend pas. Mesure de reference :
-	figure a un pixel du bord, hauteur de la carte moins ses deux bordures. Une
-	vignette sans cadre ne gagne aucun retrait au passage.
-
-	UNE BRIQUE NE NAIT PLUS DANS UNE COLONNE QUI N'EXISTE PAS. Le code de colonne
-	valait « Pleine largeur » par defaut, et la liste proposait les quatre codes
-	quelle que soit la rangee : dans un template a deux colonnes, chaque brique
-	ajoutee disparaissait en facade sans un mot. La liste ne propose desormais que
-	les colonnes de la rangee choisie, et le defaut se corrige tout seul. Une
-	brique posee expres dans une colonne devenue impossible n'est PAS deplacee :
-	la carte la nomme, ce qu'elle se contentait de compter.
+	Une brique ne nait plus dans une colonne qui n'existe pas : le code de
+	colonne valait « Pleine largeur » par defaut et la liste proposait les
+	quatre codes quelle que soit la rangee, si bien que dans un template a deux
+	colonnes chaque brique ajoutee disparaissait en facade sans un mot. La liste
+	ne propose desormais que les colonnes de la rangee choisie. Une brique posee
+	expres dans une colonne devenue impossible n'est PAS deplacee : la carte la
+	nomme, ce qu'elle se contentait de compter.
 
 	2.1.47, le 14 septembre 2026. LE TEMPLATE BLOG.
 
 	Ce que le template article fait de la PAGE d'un article, le template blog le
-	fait de sa VIGNETTE dans une liste. Meme ecran, meme carte, meme carnet de
-	briques : on choisit ce qui sort, dans quel ordre, et dans quelle colonne.
-	L'affectation se fait dans la categorie, et nulle part ailleurs ; « Heriter »
-	remonte a la categorie parente.
-
-	QUATRE TEMPLATES BLOG SONT LIVRES, verrouilles et copiables : Image a
-	gauche, Image a droite, Image en dessous, et Joomla natif.
-
-	UN SITE QUI NE S'EN SERT PAS NE BOUGE PAS D'UN PIXEL. Sans template affecte,
-	la vue blog sort le HTML du coeur au caractere pres, ce que seize
-	combinaisons de reglages verifient a chaque livraison.
+	fait de sa VIGNETTE dans une liste. L'affectation se fait dans la categorie,
+	et nulle part ailleurs ; « Heriter » remonte a la categorie parente. Quatre
+	templates sont livres, verrouilles et copiables. UN SITE QUI NE S'EN SERT
+	PAS NE BOUGE PAS D'UN PIXEL.
 -->
 <updates>
 	<update>
@@ -57,11 +67,11 @@
 		<element>pkg_corpus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.48</version>
+		<version>2.1.49</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.48.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.49.zip</downloadurl>
 		</downloads>
-		<sha256>bd2fc6b1f46ffc7c81334ad2d54cbd74f40d027738f0f223587fd5921d088068</sha256>
+		<sha256>e2428dd3787169a6a904c7a7ed4e33647aa7a8860eb064c6ce03e3743e1aada3</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
