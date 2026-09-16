@@ -14,6 +14,27 @@
 	plus personne ne verrait de mise a jour. Une candidate porte toujours le
 	numero SUIVANT.
 
+	2.1.48, le 16 septembre 2026. LE TEMPLATE BLOG RETROUVE LE DESSIN DE CORPUS.
+
+	Deux defauts du template blog livre en 2.1.47, tous deux releves sur un site
+	en ligne puis mesures au banc.
+
+	L'IMAGE D'UNE VIGNETTE TOUCHE DE NOUVEAU LE BORD DE LA CARTE. Avec un
+	template, la figure descendait d'un cran et se retrouvait en retrait de seize
+	pixels : l'arrondi de la carte ne la rognait plus, et la vignette n'avait plus
+	le dessin des autres. Le retrait change de porteur, il passe de la vignette a
+	ses colonnes ; celle qui porte l'image ne le prend pas. Mesure de reference :
+	figure a un pixel du bord, hauteur de la carte moins ses deux bordures. Une
+	vignette sans cadre ne gagne aucun retrait au passage.
+
+	UNE BRIQUE NE NAIT PLUS DANS UNE COLONNE QUI N'EXISTE PAS. Le code de colonne
+	valait « Pleine largeur » par defaut, et la liste proposait les quatre codes
+	quelle que soit la rangee : dans un template a deux colonnes, chaque brique
+	ajoutee disparaissait en facade sans un mot. La liste ne propose desormais que
+	les colonnes de la rangee choisie, et le defaut se corrige tout seul. Une
+	brique posee expres dans une colonne devenue impossible n'est PAS deplacee :
+	la carte la nomme, ce qu'elle se contentait de compter.
+
 	2.1.47, le 14 septembre 2026. LE TEMPLATE BLOG.
 
 	Ce que le template article fait de la PAGE d'un article, le template blog le
@@ -23,29 +44,11 @@
 	remonte a la categorie parente.
 
 	QUATRE TEMPLATES BLOG SONT LIVRES, verrouilles et copiables : Image a
-	gauche, Image a droite, Image en dessous, et Joomla natif. Les trois premiers
-	rendent, sous un nom qu'on retient, ce que les mots-cles `image-left`,
-	`image-right` et `image-bottom` du lien de menu font sans qu'on puisse les
-	deviner.
+	gauche, Image a droite, Image en dessous, et Joomla natif.
 
 	UN SITE QUI NE S'EN SERT PAS NE BOUGE PAS D'UN PIXEL. Sans template affecte,
 	la vue blog sort le HTML du coeur au caractere pres, ce que seize
 	combinaisons de reglages verifient a chaque livraison.
-
-	AUSSI DANS CETTE VERSION :
-
-	  - le mot « gabarit » disparait de l'ecran, dans les quatre langues : on dit
-	    Template blog et Template article. Aucune clef de reglage ne change,
-	    aucune affectation n'est perdue ;
-	  - les rangees d'un template blog ont Fond et Appliquer a, comme l'article ;
-	  - les rapports 5 / 7 et 7 / 5, les proportions de la carte du site ;
-	  - chaque template livre porte son bouton Copier, y compris « Article avec
-	    plan » cote article, qui ne l'avait jamais eu ;
-	  - les briques d'une colonne reprennent le rythme de huit pixels de la
-	    vignette native. La ligne des mentions ne colle plus au titre.
-
-	Le manuel gagne un chapitre, 3.8 « Les templates blog », et celui des
-	templates article passe en 3.9.
 -->
 <updates>
 	<update>
@@ -54,11 +57,11 @@
 		<element>pkg_corpus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.47</version>
+		<version>2.1.48</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.47.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.48.zip</downloadurl>
 		</downloads>
-		<sha256>b99427d64b0acf4abacb98cd3d8d0bb68469b29d85a4a8ccfcc24cefc37f270d</sha256>
+		<sha256>bd2fc6b1f46ffc7c81334ad2d54cbd74f40d027738f0f223587fd5921d088068</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
