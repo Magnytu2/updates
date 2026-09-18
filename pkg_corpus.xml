@@ -14,40 +14,20 @@
 	plus personne ne verrait de mise a jour. Une candidate porte toujours le
 	numero SUIVANT.
 
-	2.1.51, le 18 septembre 2026. LA BARRE DE NAVIGATION SUR TELEPHONE.
+	2.1.52, le 18 septembre 2026. L'APERCU DU THEME CUSTOMIZER SUIT ENFIN
+	LES REGLAGES.
 
-	Sous 48 rem, le bouton du menu et le selecteur de langue occupaient chacun
-	une ligne entiere : 139 pixels de haut pour une barre fermee qui en demande
-	51. Les regles censees les mettre cote a cote sont ecrites pour une boite
-	flexible, alors que la barre rend en grille des qu'elle porte des zones :
-	`flex` et `margin-left: auto` n'y font rien, et personne ne le voyait parce
-	que la mise en page restait valide.
+	Le champ d'apercu cherchait sa feuille modele dans
+	templates/corpus/css/custom-styles.tpl.css. Depuis que les feuilles sont
+	livrees dans media/templates/site/corpus/css/, ce fichier n'existe plus a
+	cet endroit : l'apercu recevait une feuille vide. Ni la teinte, ni le CSS
+	personnalise, ni aucun autre reglage ne s'y voyait, et il retombait sur
+	l'olive par defaut. Le champ lit maintenant le fichier dans media/, avec
+	l'ancien chemin en repli.
 
-	Trois lignes explicites remettent l'ordre voulu : le bouton a gauche et le
-	selecteur a droite sur la premiere, le filet sur la deuxieme, le menu
-	deplie sur la troisieme. Le filet traverse desormais toute la largeur ; il
-	ne couvrait que la premiere colonne et s'arretait au milieu de l'ecran.
-
-	AU PASSAGE, LA MARGE REDEVIENT SYMETRIQUE. Un retrait haut avait ete ajoute
-	en aout pour compenser l'ecart entre les deux lignes d'alors. Cet ecart
-	disparait avec la grille, et le retrait devenait le desequilibre inverse.
-	Il ne s'applique plus qu'aux barres sans zones, qui rendent encore en boite
-	souple et en ont toujours besoin.
-
-	AUSSI DANS CETTE VERSION :
-
-	  - le survol du bouton tertiaire ne tenait qu'a son fond, et l'ecart entre
-	    ce fond et le blanc vaut 1,12 pour 1 : invisible. Le texte et le
-	    soulignement prennent le relais, deux indices au lieu d'un, aucun qui
-	    repose sur la couleur seule ;
-	  - l'ecran des templates previent quand un renommage change la cle : la
-	    carte affiche l'ancienne et la nouvelle, pendant la saisie, dans les
-	    quatre langues.
-
-	POUR CEUX QUI FABRIQUENT LE PAQUET. L'outil de livraison ecarte desormais
-	tout fichier dont le nom commence par `_sauvegarde`. Trois archives de
-	travail etaient arrivees dans le dossier source et pesaient vingt-deux
-	megaoctets : le paquet passait de 1,2 a 23,4 Mo, et restait valide.
+	AUSSI DANS CETTE VERSION : plus aucun tiret cadratin dans les fichiers de
+	langue anglais, allemand et espagnol. Deux-points, virgules ou parentheses
+	les remplacent, comme dans le francais.
 -->
 <updates>
 	<update>
@@ -56,11 +36,11 @@
 		<element>pkg_corpus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.51</version>
+		<version>2.1.52</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.51.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.52.zip</downloadurl>
 		</downloads>
-		<sha256>15b7e9f85d815681c95e1abf2710ae080f8bac349f4728a24f3cf18f95ca1ce2</sha256>
+		<sha256>48ee772ef4a3b35ff5e7dfe49e278e27e8f659152aa46683a920bea0f514c754</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
