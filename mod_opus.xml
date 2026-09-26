@@ -10,6 +10,19 @@
 	stable d'Opus, module de mise en page par rangees et blocs. Autonome :
 	il fonctionne sous Corpus comme sous Cassiopeia. Mesure et verifie sur
 	Joomla 6.1.2 uniquement, d'ou la plateforme cible limitee a la 6.
+
+	1.5.201, le 25 septembre 2026 : la description dit que le module a ete
+	developpe a deux, Cyrille Poussin et une IA, sous contraintes
+	d'accessibilite, de qualite, de rapidite et de legerete. PREMIERE VERSION
+	EN TROIS CHIFFRES : le dernier nombre vaut serie x 100 + construction.
+	La prochaine publication sera la 1.5.301. version_compare lit 1.5.201
+	au-dessus de 1.5.1 : rien ne recule. (1.5.201 n'a finalement jamais ete
+	mise en ligne : deux depots refuses par GitHub.)
+
+	1.5.301, le 26 septembre 2026 : le crayon du module ouvre l'ecran complet
+	d'Opus dans une grande fenetre, avec ses onglets, sous Corpus comme sous
+	Cassiopeia (bloquee sur telephone). Enregistrement verifie : 268 reglages
+	identiques avant et apres.
 -->
 <updates>
 	<update>
@@ -18,11 +31,11 @@
 		<element>mod_opus</element>
 		<type>module</type>
 		<client>site</client>
-		<version>1.5.1</version>
+		<version>1.5.301</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.1.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.301.zip</downloadurl>
 		</downloads>
-		<sha256>9474018d5f64ba2b9beb435d60b51656d470b27d2be1002e27b86b22a224852f</sha256>
+		<sha256>272bb850d8c81fff00f3a944f707e557950bd36779acc77308806513bad0dea5</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>
