@@ -14,20 +14,36 @@
 	plus personne ne verrait de mise a jour. Une candidate porte toujours le
 	numero SUIVANT.
 
-	2.1.52, le 18 septembre 2026. L'APERCU DU THEME CUSTOMIZER SUIT ENFIN
-	LES REGLAGES.
+	2.1.60, le 26 septembre 2026. MODIFIER SON SITE DEPUIS SON SITE.
 
-	Le champ d'apercu cherchait sa feuille modele dans
-	templates/corpus/css/custom-styles.tpl.css. Depuis que les feuilles sont
-	livrees dans media/templates/site/corpus/css/, ce fichier n'existe plus a
-	cet endroit : l'apercu recevait une feuille vide. Ni la teinte, ni le CSS
-	personnalise, ni aucun autre reglage ne s'y voyait, et il retombait sur
-	l'olive par defaut. Le champ lit maintenant le fichier dans media/, avec
-	l'ancien chemin en repli.
+	Joomla laisse corriger une page sans passer par l'administration : le crayon
+	d'un module, le formulaire d'article, le gestionnaire de medias ouvert par
+	un champ image. Ces trois ecrans sont ecrits pour la feuille du template
+	d'administration, et Corpus ne la sert pas. Ils etaient inutilisables.
 
-	AUSSI DANS CETTE VERSION : plus aucun tiret cadratin dans les fichiers de
-	langue anglais, allemand et espagnol. Deux-points, virgules ou parentheses
-	les remplacent, comme dans le francais.
+	`.hidden` est desormais definie. C'est la classe que Joomla pose sur chaque
+	champ conditionnel inutile ; sans elle, ils s'affichaient tous a la fois.
+	Mesure sur un formulaire de module : 188 champs qui doublaient la hauteur de
+	la page. `.visually-hidden` arrive avec elle, pour que les legendes
+	reservees aux lecteurs d'ecran cessent de s'afficher a l'ecran.
+
+	Le gestionnaire de medias a retrouve ses fonds, ses bordures et ses
+	separations. Il lit quatorze variables du template d'administration, qui
+	n'existaient pas ici : elles sont branchees sur les reglages de Corpus, donc
+	les dossiers prennent la teinte du site et le theme sombre suit.
+
+	Tous les ecrans de modification sont ranges en ONGLETS HORIZONTAUX, dessines
+	comme les onglets du template et non comme ceux de l'administration. Les
+	champs de Joomla vont dans le premier onglet, et chaque onglet range ses
+	champs sur deux colonnes, puisque la page du site est large. Un module qui
+	habille deja son propre formulaire garde la main.
+
+	RIEN DE TOUT CELA NE PESE SUR LE VISITEUR. Ces feuilles ne sont chargees que
+	pour une personne identifiee, et seulement sur un ecran de saisie. Une page
+	publique ne recoit pas un octet de plus.
+
+	AUSSI DANS CETTE VERSION : l'image agrandie porte sa legende, reprise du
+	texte ecrit sous la vignette.
 -->
 <updates>
 	<update>
@@ -36,11 +52,11 @@
 		<element>pkg_corpus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.52</version>
+		<version>2.1.60</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.52.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.60.zip</downloadurl>
 		</downloads>
-		<sha256>48ee772ef4a3b35ff5e7dfe49e278e27e8f659152aa46683a920bea0f514c754</sha256>
+		<sha256>4fa2b239f354bf3afcec40714c8d1bcaf5a8543ec4635a0c73393fd10f3279c0</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
