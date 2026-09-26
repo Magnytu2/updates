@@ -23,6 +23,11 @@
 	d'Opus dans une grande fenetre, avec ses onglets, sous Corpus comme sous
 	Cassiopeia (bloquee sur telephone). Enregistrement verifie : 268 reglages
 	identiques avant et apres.
+
+	1.5.302, le 26 septembre 2026 : passage au JED Checker 2.4.4. Neuf
+	guillemets non proteges dans les fichiers de langue anglais et francais
+	sont ecrits \" (Joomla les rend a l'identique). Une cle de langue
+	inexistante retiree. 0 erreur, 0 alerte.
 -->
 <updates>
 	<update>
@@ -31,11 +36,11 @@
 		<element>mod_opus</element>
 		<type>module</type>
 		<client>site</client>
-		<version>1.5.301</version>
+		<version>1.5.302</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.301.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.302.zip</downloadurl>
 		</downloads>
-		<sha256>272bb850d8c81fff00f3a944f707e557950bd36779acc77308806513bad0dea5</sha256>
+		<sha256>0c2426c928ad13a191b6aa06d0b9f7866d9e8ff74c1625343999c6a3c02653d0</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>
