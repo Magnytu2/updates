@@ -14,36 +14,35 @@
 	plus personne ne verrait de mise a jour. Une candidate porte toujours le
 	numero SUIVANT.
 
-	2.1.60, le 26 septembre 2026. MODIFIER SON SITE DEPUIS SON SITE.
+	2.1.66, le 27 septembre 2026. LES TAMPONS FONT ENFIN DE VRAIS BOUTONS.
 
-	Joomla laisse corriger une page sans passer par l'administration : le crayon
-	d'un module, le formulaire d'article, le gestionnaire de medias ouvert par
-	un champ image. Ces trois ecrans sont ecrits pour la feuille du template
-	d'administration, et Corpus ne la sert pas. Ils etaient inutilisables.
+	Un bouton pose depuis la liste des modeles de TinyMCE sortait en LIEN NU,
+	et il sortait meme VIDE. Deux causes, sans rapport l'une avec l'autre.
 
-	`.hidden` est desormais definie. C'est la classe que Joomla pose sur chaque
-	champ conditionnel inutile ; sans elle, ils s'affichaient tous a la fois.
-	Mesure sur un formulaire de module : 188 champs qui doublaient la hauteur de
-	la page. `.visually-hidden` arrive avec elle, pour que les legendes
-	reservees aux lecteurs d'ecran cessent de s'afficher a l'ecran.
+	La premiere : `jtemplate`, le composant que Joomla 6 a ecrit pour remplacer
+	le plugin `template` de TinyMCE 7, remplit sans condition tout element
+	portant la classe `selcontent` avec ce qui etait selectionne dans l'editeur.
+	Selection vide, bouton vide. Nos 56 blocs ont perdu cette classe.
 
-	Le gestionnaire de medias a retrouve ses fonds, ses bordures et ses
-	separations. Il lit quatorze variables du template d'administration, qui
-	n'existaient pas ici : elles sont branchees sur les reglages de Corpus, donc
-	les dossiers prennent la teinte du site et le theme sombre suit.
+	La seconde : les blocs ecrivaient `btn btn-primary`, le vocabulaire de
+	Bootstrap, que Corpus ne sert pas. Ils ecrivent desormais `bouton`, la
+	classe de la maison. Les vingt boutons des blocs ont ete convertis, et les
+	deux blocs de petit bouton sont revenus.
 
-	Tous les ecrans de modification sont ranges en ONGLETS HORIZONTAUX, dessines
-	comme les onglets du template et non comme ceux de l'administration. Les
-	champs de Joomla vont dans le premier onglet, et chaque onglet range ses
-	champs sur deux colonnes, puisque la page du site est large. Un module qui
-	habille deja son propre formulaire garde la main.
+	LE CONTENU DEJA ECRIT N'EST PAS ABANDONNE. Un `btn` pose avant aujourd'hui
+	prend la forme du bouton de Corpus, sur le site comme dans l'editeur. Rien
+	a reprendre a la main dans les anciens articles.
 
-	RIEN DE TOUT CELA NE PESE SUR LE VISITEUR. Ces feuilles ne sont chargees que
-	pour une personne identifiee, et seulement sur un ecran de saisie. Une page
-	publique ne recoit pas un octet de plus.
+	L'EDITEUR MONTRE MAINTENANT LA COULEUR DU SITE. Son cadre ne chargeait que
+	les valeurs d'usine, donc l'olive, quelle que soit la teinte reglee. Il lit
+	desormais les reglages du style par defaut : ce qu'on voit en ecrivant est
+	ce que le visiteur verra. Pour en profiter, enregistrer une fois son style
+	apres la mise a jour.
 
-	AUSSI DANS CETTE VERSION : l'image agrandie porte sa legende, reprise du
-	texte ecrit sous la vignette.
+	AUSSI DANS CETTE VERSION : le script du site est livre allege, 32 ko au lieu
+	de 71, sans rien changer a ce qu'il fait ; les en-tetes de fichier sont en
+	anglais, pour les integrateurs qui reprennent le code ; et les tampons ont
+	tous la meme forme de marqueur, ce qui rend leur mise a jour sure.
 -->
 <updates>
 	<update>
@@ -52,11 +51,11 @@
 		<element>pkg_corpus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.60</version>
+		<version>2.1.66</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.60.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.66.zip</downloadurl>
 		</downloads>
-		<sha256>4fa2b239f354bf3afcec40714c8d1bcaf5a8543ec4635a0c73393fd10f3279c0</sha256>
+		<sha256>a2c50457f07cb38758be3758fc69e63a0bba5620cc9cb2fba9d0916622c71097</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
