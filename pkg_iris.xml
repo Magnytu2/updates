@@ -14,7 +14,7 @@
 
 	CE NUMERO NE RECULE JAMAIS.
 
-	3.0.031, publie le 29 septembre 2026.
+	3.0.041, publie le 30 septembre 2026.
 -->
 <updates>
 	<update>
@@ -23,11 +23,11 @@
 		<element>pkg_iris</element>
 		<type>package</type>
 		<client>site</client>
-		<version>3.0.031</version>
+		<version>3.0.041</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.031.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.041.zip</downloadurl>
 		</downloads>
-		<sha256>569bedbaff3291842d393073f024ba165a6016e57100157cb01541dd84e611c3</sha256>
+		<sha256>a0e26d1a4c5c15593b06b1536ff6870a6573dbc0b0b132cbd7b0b9644168cb48</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
