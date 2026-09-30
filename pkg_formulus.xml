@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	SERVEUR DE MISE A JOUR : Formulus
+
+	Publie a https://magnytu2.github.io/updates/pkg_formulus.xml
+	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
+	<updateservers> dans le manifeste du paquet.
+
+	1.0.303, le 30 septembre 2026 : premiere publication. Composant de
+	formulaires accessibles pour Joomla 6, gratuit, avec trois plugins
+	(champs, confidentialite, tache planifiee). JED Checker passe.
+	Mesure sur Joomla 6 uniquement, d'ou la plateforme cible limitee a la 6.
+-->
+<updates>
+	<update>
+		<name>Formulus</name>
+		<description>Formulus : des formulaires accessibles pour Joomla, sur les champs personnalises.</description>
+		<element>pkg_formulus</element>
+		<type>package</type>
+		<client>site</client>
+		<version>1.0.303</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_formulus-1.0.303.zip</downloadurl>
+		</downloads>
+		<sha256>712bfe1e3cea50a4bcb1d9c0215e409225bd141c0e2f846937504bc80f103aa7</sha256>
+		<tags><tag>stable</tag></tags>
+		<maintainer>Joomanji</maintainer>
+		<maintainerurl>https://joomanji.eu</maintainerurl>
+		<infourl title="Formulus">https://joomanji.eu/fr/formulus</infourl>
+		<targetplatform name="joomla" version="6\."/>
+		<php_minimum>8.3</php_minimum>
+	</update>
+</updates>
