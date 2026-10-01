@@ -6,7 +6,7 @@
 	C'est l'adresse inscrite dans le manifeste du plugin seul 2.x.
 
 	DEUX ANNONCES, choisies par Joomla selon sa version (targetplatform) :
-	 - Joomla 6 : 3.0.042, qui livre le PAQUET pkg_iris. Joomla 6.1.3,
+	 - Joomla 6 : 3.0.043, qui livre le PAQUET pkg_iris. Joomla 6.1.3,
 	   UpdateModel::install(), prend le type dans le zip telecharge : la mise a
 	   jour du plugin installe le paquet. Le script du paquet retire ensuite
 	   cette adresse ; le site ne suit plus que pkg_iris.xml.
@@ -15,7 +15,7 @@
 
 	CE NUMERO NE RECULE JAMAIS.
 
-	3.0.042 annonce le 30 septembre 2026.
+	3.0.043 annonce le 1er octobre 2026.
 -->
 <updates>
 	<update>
@@ -25,11 +25,11 @@
 		<type>plugin</type>
 		<client>site</client>
 		<folder>system</folder>
-		<version>3.0.042</version>
+		<version>3.0.043</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.042.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.043.zip</downloadurl>
 		</downloads>
-		<sha256>4f3cbb80e5c6e277704aaaaf348113a681bc81dbe92e461263cfd69f02fc741e</sha256>
+		<sha256>3257646f2c65b7b01b5af2025b3bf52f63c419fafabbdc81724e30c40df2eca8</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
