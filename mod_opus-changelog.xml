@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelogs>
+	<changelog>
+		<element>mod_opus</element>
+		<type>module</type>
+		<version>1.5.305</version>
+		<fix>
+			<item>Bloc simple : le réglage « Position verticale » (En haut, En bas) restait sans effet quand la rangée centrait ses colonnes. Le bloc se place maintenant là où il est réglé. Si un de vos blocs était enregistré « En haut » sous une rangée centrée, il montera en haut après la mise à jour : c'est le réglage qu'il portait déjà.</item>
+			<item>Enregistrement : un module très rempli (beaucoup de rangées, de blocs et d'éléments) pouvait être refusé par certains hébergeurs avec une erreur « Bad Request ». Opus n'envoie plus que les champs utiles.</item>
+		</fix>
+		<note>
+			<item>Correctif sans nouvelle fonction. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+</changelogs>

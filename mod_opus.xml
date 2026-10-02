@@ -30,6 +30,13 @@
 	inexistante retiree. 0 erreur, 0 alerte.
 
 	1.5.303, publie le 1er octobre 2026 : visionneuse alignee sur celle de Corpus.
+
+	1.5.305, publie le 2 octobre 2026 : CORRECTIF. Le reglage vertical d'un
+	Bloc simple (« En haut », « En bas ») restait sans effet sous une rangee
+	centree. Embarque aussi la 1.5.304, jamais publiee seule : un module tres
+	rempli ne provoque plus d'erreur « Bad Request » a l'enregistrement.
+	Le pourquoi est lisible par les sites dans mod_opus-changelog.xml
+	(bouton « Journal des modifications » de l'ecran des mises a jour).
 -->
 <updates>
 	<update>
@@ -38,15 +45,16 @@
 		<element>mod_opus</element>
 		<type>module</type>
 		<client>site</client>
-		<version>1.5.303</version>
+		<version>1.5.305</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.303.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.305.zip</downloadurl>
 		</downloads>
-		<sha256>8d1d4e9027a7127bf5a67d02c6a7edfcca8ded727a9b14d2c605e6d7067f6ba1</sha256>
+		<sha256>29e11811b6fa993a6868c47ab08e8129f3db7a7af7e39e4ee6e357713c68d116</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>
 		<infourl title="Opus">https://joomanji.eu</infourl>
+		<changelogurl>https://magnytu2.github.io/updates/mod_opus-changelog.xml</changelogurl>
 		<targetplatform name="joomla" version="6\."/>
 		<php_minimum>8.3</php_minimum>
 	</update>
