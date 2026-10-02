@@ -9,26 +9,28 @@
 	VERSION STABLE. Depuis le 27 aout 2026, tous les produits Joomanji sont
 	stables : plus aucun suffixe -rc, et <tag> vaut `stable`.
 
-	NE JAMAIS REPUBLIER UN CANDIDAT SUR UN NUMERO DEJA STABLE. 2.1.6-rc1 serait
-	INFERIEUR au 2.1.6 publie ici. Si un candidat doit revenir : 2.1.7-rc1.
+	NUMEROTATION : depuis le 2 octobre 2026, trois chiffres derriere.
+	2.1.18 a ete la derniere de l'ancien rythme ; suivent 2.1.180, 2.1.181...
+	version_compare lit bien 2.1.180 au-dessus de 2.1.8 et de 2.1.18.
 
-	Les cinq extensions contenues portent le meme numero que l'emballage.
+	Les six extensions contenues portent le meme numero que l'emballage.
 	Sans cela le composant afficherait son ancien numero a l'ecran.
 
-	2.1.8, publie le 25 septembre 2026 (paquet en attente depuis le 17).
+	2.1.180, publie le 2 octobre 2026 : assistant des visiteurs, plan de site
+	tenu a jour automatiquement.
 -->
 <updates>
 	<update>
 		<name>Astus</name>
-		<description>Astus - assistant IA agentique et suite SEO pour Joomla : le composant, le plugin systeme, le tableau de bord SEO, le module de configuration et l'audit du site.</description>
+		<description>Astus - assistant IA agentique et suite SEO pour Joomla : le composant, le plugin systeme, le tableau de bord SEO, le module de configuration, l'audit du site et l'assistant des visiteurs.</description>
 		<element>pkg_astus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.8</version>
+		<version>2.1.180</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.8.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.180.zip</downloadurl>
 		</downloads>
-		<sha256>a233b236ab72e51f953fc7ef4a5f5d0bef4b8555fffa2bd1aef857d2e2e05a84</sha256>
+		<sha256>f4f1ed6fdc8aa2cdf10bd20fd463f15a76ed6ad7d95dea33a4a5401d97120ffe</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
