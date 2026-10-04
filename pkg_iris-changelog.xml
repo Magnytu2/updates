@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Journal des changements d'Iris, lu par Joomla (bouton « Journal des modifications » de Système, Mettre à jour, Extensions). -->
+<changelogs>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
+		<version>3.0.044</version>
+		<fix>
+			<item>Système, Maintenance, Base de données affichait « Un problème » pour Iris (« Iris version () »). Le manifeste du composant s&apos;appelait com_iris.xml ; Joomla le cherche sous le nom iris.xml (administrator/components/com_iris/iris.xml). La version d&apos;Iris restait donc vide et Joomla croyait la base en retard, alors qu&apos;elle n&apos;avait aucun défaut. Le manifeste est renommé, et la mise à jour retire l&apos;ancien fichier.</item>
+			<item>Un dossier qui contient un fichier utilisé sur le site ne peut plus être supprimé : le serveur refuse aussi, y compris depuis le gestionnaire de médias de Joomla.</item>
+		</fix>
+		<addition>
+			<item>Barre de progression pour supprimer, déplacer, copier, envoyer et alléger plusieurs fichiers.</item>
+			<item>Dans le menu Dossiers, Renommer et Supprimer sont inactifs quand le dossier contient un fichier utilisé, avec la raison et la liste des fichiers.</item>
+		</addition>
+	</changelog>
+</changelogs>
