@@ -3,6 +3,25 @@
 	<changelog>
 		<element>mod_opus</element>
 		<type>module</type>
+		<version>1.5.400</version>
+		<addition>
+			<item>Élément Tableau : une grille qu'on remplit ou qu'on colle depuis Excel ou LibreOffice, des réglages par ligne, colonne et cellule, et un affichage en fiches sur téléphone.</item>
+			<item>Élément Vidéo : YouTube, Vimeo, Dailymotion, PeerTube ou un fichier du site, chargée seulement au clic, avec transcription et sous-titres.</item>
+			<item>Élément Carte : des lieux sur OpenStreetMap, sans clé ni compte Google, saisis à la main ou tirés des articles d'une catégorie, avec liste, fiches et itinéraire.</item>
+			<item>Élément Agenda : vues mois, liste ou mini calendrier, fiches d'événements, séances répétées, événements saisis ou tirés des articles et de leurs champs personnalisés, « Ajouter à mon agenda » (Google, Outlook, .ics) et événements en ligne.</item>
+			<item>Tous les liens d'Opus peuvent désormais viser un article, choisi dans la fenêtre de sélection de Joomla.</item>
+			<item>Nouvelles mises en page de démarrage : Horaires en tableau, Vidéo présentée, Plan d'accès et Agenda.</item>
+		</addition>
+		<change>
+			<item>Nouvelle page d'accueil du module : manuel, assistance, téléchargement et avis sur le JED.</item>
+		</change>
+		<note>
+			<item>Aucun réglage à refaire : vos mises en page existantes restent telles quelles.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>mod_opus</element>
+		<type>module</type>
 		<version>1.5.305</version>
 		<fix>
 			<item>Bloc simple : le réglage « Position verticale » (En haut, En bas) restait sans effet quand la rangée centrait ses colonnes. Le bloc se place maintenant là où il est réglé. Si un de vos blocs était enregistré « En haut » sous une rangée centrée, il montera en haut après la mise à jour : c'est le réglage qu'il portait déjà.</item>
