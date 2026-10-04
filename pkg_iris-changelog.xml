@@ -4,6 +4,14 @@
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.045</version>
+		<change>
+			<item>Dans le menu Contenu, « Iris Médias » devient « Iris Médiathèque » (anglais : Iris Media Library, allemand : Iris Mediathek, espagnol : Iris Mediateca). C&apos;est le nom employé dans Iris et dans le manuel, et il ne se confond plus avec « Média », le gestionnaire de Joomla juste au-dessus.</item>
+		</change>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.044</version>
 		<fix>
 			<item>Système, Maintenance, Base de données affichait « Un problème » pour Iris (« Iris version () »). Le manifeste du composant s&apos;appelait com_iris.xml ; Joomla le cherche sous le nom iris.xml (administrator/components/com_iris/iris.xml). La version d&apos;Iris restait donc vide et Joomla croyait la base en retard, alors qu&apos;elle n&apos;avait aucun défaut. Le manifeste est renommé, et la mise à jour retire l&apos;ancien fichier.</item>

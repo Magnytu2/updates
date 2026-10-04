@@ -14,21 +14,21 @@
 
 	CE NUMERO NE RECULE JAMAIS.
 
-	3.0.044, publie le 4 octobre 2026.
+	3.0.045, publie le 4 octobre 2026.
 -->
 <updates>
 	<update>
 		<name>Iris</name>
-		<description>Iris 3.0.044 : corrige l&apos;alerte « Un problème » affichée pour Iris dans Système, Maintenance, Base de données. Le manifeste du composant s&apos;appelait com_iris.xml alors que Joomla le cherche sous le nom iris.xml : la version d&apos;Iris restait vide et Joomla croyait la base en retard. La base n&apos;avait aucun défaut. Aussi : barre de progression des actions sur plusieurs fichiers, dossiers contenant un fichier utilisé verrouillés (ni renommés ni supprimés).</description>
+		<description>Iris 3.0.045 : dans le menu Contenu, « Iris Médias » devient « Iris Médiathèque », le nom employé partout ailleurs et qui ne se confond plus avec « Média » de Joomla. Reprend aussi la 3.0.044 : l&apos;alerte « Un problème » de Système, Maintenance, Base de données est corrigée (le manifeste du composant s&apos;appelait com_iris.xml alors que Joomla le cherche sous le nom iris.xml ; la base n&apos;avait aucun défaut), barre de progression, dossiers contenant un fichier utilisé verrouillés.</description>
 		<element>pkg_iris</element>
 		<type>package</type>
 		<client>site</client>
-		<version>3.0.044</version>
+		<version>3.0.045</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.044.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.045.zip</downloadurl>
 		</downloads>
 		<changelogurl>https://magnytu2.github.io/updates/pkg_iris-changelog.xml</changelogurl>
-		<sha256>6d735982581398f6237a55bbbe0ac3a5708e07495ac3d4f45eac1f64f5f76a0f</sha256>
+		<sha256>ab0c1def1f3427fc9a8c128624c7be4167791e0fc8c8829434712ef76576960f</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
