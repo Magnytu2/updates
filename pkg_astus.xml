@@ -26,11 +26,11 @@
 		<element>pkg_astus</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.180</version>
+		<version>2.1.183</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.180.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.183.zip</downloadurl>
 		</downloads>
-		<sha256>f4f1ed6fdc8aa2cdf10bd20fd463f15a76ed6ad7d95dea33a4a5401d97120ffe</sha256>
+		<sha256>43f7b27fefdf5a78cbcd85c9b80955ac10488f5c43da7086c451f50fb329a3f0</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>

@@ -53,11 +53,11 @@
 		<element>mod_opus</element>
 		<type>module</type>
 		<client>site</client>
-		<version>1.5.400</version>
+		<version>1.5.514</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.400.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.514.zip</downloadurl>
 		</downloads>
-		<sha256>748bbc62ba9c3da18c7a4a56427060078d058fabec27aef03cf3ce17c3dc9c29</sha256>
+		<sha256>c6d28d0b4e596016d55abaad473f10de4ca07a82298ffac0422bb56780e30de6</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>

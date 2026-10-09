@@ -23,12 +23,12 @@
 		<element>pkg_iris</element>
 		<type>package</type>
 		<client>site</client>
-		<version>3.0.045</version>
+		<version>3.0.060</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.045.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.060.zip</downloadurl>
 		</downloads>
 		<changelogurl>https://magnytu2.github.io/updates/pkg_iris-changelog.xml</changelogurl>
-		<sha256>ab0c1def1f3427fc9a8c128624c7be4167791e0fc8c8829434712ef76576960f</sha256>
+		<sha256>9a000047500af97a8f3f2f1cb105acbae06ef38d9040068da3bfbe69dd6a8f61</sha256>
 		<tags>
 			<tag>stable</tag>
 		</tags>
