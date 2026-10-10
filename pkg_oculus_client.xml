@@ -35,6 +35,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_oculus_client-2.1.1.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/pkg_oculus_client-changelog.xml</changelogurl>
 		<sha256>28da892c91b368445208c19ca8660e33f9745e823640434620f147d0599576d5</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>

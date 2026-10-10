@@ -57,6 +57,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.672.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/pkg_corpus-changelog.xml</changelogurl>
 		<sha256>af81ff2861d579e3ff34aefa0b5e6b41e3936ae17441c37ba222abcb0fbbd608</sha256>
 		<tags>
 			<tag>stable</tag>

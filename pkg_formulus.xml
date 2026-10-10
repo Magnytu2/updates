@@ -22,6 +22,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_formulus-1.0.413.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/pkg_formulus-changelog.xml</changelogurl>
 		<sha256>2ad01161b33182f45d22283131f58cc47e243450a5f43a5f772a9e914761ec36</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>

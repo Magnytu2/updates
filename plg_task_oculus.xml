@@ -32,6 +32,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/plg_task_oculus-2.3.1.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/plg_task_oculus-changelog.xml</changelogurl>
 		<sha256>2ddb6998d1bb31a9abaa076fc8844d2c2285c42820e15bb3d5599385fa5476d3</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SERVEUR DE MISE A JOUR — Corpus, module de demarrage
+	SERVEUR DE MISE A JOUR : Corpus, module de demarrage
 
 	Publie a https://magnytu2.github.io/updates/mod_corpus_start.xml
 	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
@@ -11,7 +11,7 @@
 	doit dire la verite sur la version publiee.
 
 	CE NUMERO NE RECULE PLUS JAMAIS. 1.0.2-rc1 etait un candidat ; 1.0.2
-	lui est superieur. Si un candidat devait revenir, ce serait 1.0.16-rc1 —
+	lui est superieur. Si un candidat devait revenir, ce serait 1.0.16-rc1,
 	jamais 1.0.15-rc2, qui serait INFERIEUR au 1.0.15 deja publie.
 
 	1.0.16, le 16 septembre 2026. LE TEMPLATE BLOG, ET RIEN D'AUTRE POUR LE DIRE.
@@ -61,6 +61,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_corpus_start-1.0.16.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/mod_corpus_start-changelog.xml</changelogurl>
 		<sha256>29278280692f791689f78b19128036132941c1765f784c15e7f201e5fe75184a</sha256>
 		<tags>
 			<tag>stable</tag>

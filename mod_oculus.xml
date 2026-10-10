@@ -37,6 +37,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_oculus-2.5.3.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/mod_oculus-changelog.xml</changelogurl>
 		<sha256>0d7e61e1a5131bea9404e451878a5c6ba478c7b12e798b91540f4991f96229e5</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>

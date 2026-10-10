@@ -30,6 +30,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.183.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/pkg_astus-changelog.xml</changelogurl>
 		<sha256>43f7b27fefdf5a78cbcd85c9b80955ac10488f5c43da7086c451f50fb329a3f0</sha256>
 		<tags>
 			<tag>stable</tag>

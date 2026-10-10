@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SERVEUR DE MISE A JOUR — Tikus
+	SERVEUR DE MISE A JOUR : Tikus
 
 	Publie a https://magnytu2.github.io/updates/pkg_tikus.xml
 	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
@@ -31,6 +31,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_tikus-2.9.011.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/pkg_tikus-changelog.xml</changelogurl>
 		<sha256>37998126593ae721a9a274292e8114601961a7d218ca5787dbfb16fbc5cda8ed</sha256>
 		<tags>
 			<tag>stable</tag>

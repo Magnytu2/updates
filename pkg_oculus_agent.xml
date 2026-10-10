@@ -43,6 +43,7 @@
 		<downloads>
 			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_oculus_agent-2.1.1.zip</downloadurl>
 		</downloads>
+		<changelogurl>https://magnytu2.github.io/updates/pkg_oculus_agent-changelog.xml</changelogurl>
 		<sha256>e6a334f50f2555a8366d2f20f539bcd1b766170e9313e7218bb71a2362c2aaae</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
