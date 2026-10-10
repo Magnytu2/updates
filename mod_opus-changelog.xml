@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelogs>
+<changelog>
+<element>mod_opus</element>
+<type>module</type>
+<version>1.5.514</version>
+<addition>
+<item>Agenda : une troisième source d&apos;événements, l&apos;adresse d&apos;un calendrier en ligne au format .ics (Google, Outlook, Apple, Nextcloud), avec les séances répétées et une durée de cache réglable.</item>
+<item>Agenda : deux vues de plus, Jour et Année, à côté de Mois et Liste.</item>
+</addition>
+<change>
+<item>La mise en page de démarrage « Plan d&apos;accès » s&apos;appelle maintenant « Carte ».</item>
+<item>Administration : les bulles d&apos;aide s&apos;ouvrent au clic et se ferment par une croix, et les fenêtres de confirmation sont les mêmes que dans les autres produits Joomanji.</item>
+</change>
+<fix>
+<item>Un module Opus appelé par {loadmodule} dans un article garde les couleurs du template Corpus.</item>
+</fix>
+<note>
+<item>Aucun réglage à refaire : vos mises en page existantes restent telles quelles.</item>
+</note>
+</changelog>
 	<changelog>
 		<element>mod_opus</element>
 		<type>module</type>
