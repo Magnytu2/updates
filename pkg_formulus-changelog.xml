@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+NOTES DE VERSION, lues par Joomla (Système, Mettre à jour, Extensions,
+bouton « Notes de version »). Joomla ne montre que l'entrée dont la version
+est exactement celle proposée : en écrire une à chaque publication.
+
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE ET JAMAIS L'ENTITE, MOINS DE 290 OCTETS : Joomla fait une puce
+de chaque morceau que lui livre l'analyseur XML, qui coupe aux entités et au
+premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
+		<version>1.0.413</version>
+		<addition>
+			<item>⁠Un module, Formulus, pour afficher un formulaire dans une position de module.</item>
+			<item>⁠Réglage « Afficher le titre » du formulaire.</item>
+		</addition>
+		<fix>
+			<item>⁠Les cases à cocher restent visibles sur un fond sombre.</item>
+		</fix>
+		<change>
+			<item>⁠Administration harmonisée avec les autres produits Joomanji : mêmes fenêtres de confirmation, mêmes bulles d’aide.</item>
+		</change>
+		<note>
+			<item>⁠Joomla 6 seulement. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+</changelogs>

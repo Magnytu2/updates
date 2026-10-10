@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+NOTES DE VERSION, lues par Joomla (Système, Mettre à jour, Extensions,
+bouton « Notes de version »). Joomla ne montre que l'entrée dont la version
+est exactement celle proposée : en écrire une à chaque publication.
+
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE ET JAMAIS L'ENTITE, MOINS DE 290 OCTETS : Joomla fait une puce
+de chaque morceau que lui livre l'analyseur XML, qui coupe aux entités et au
+premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
+		<version>2.1.672</version>
+		<fix>
+			<item>⁠Joomla 6.2 : l’image d’introduction d’un article sortait sans sa figure quand elle n’avait pas de légende. Les blogs perdaient leur mise en page (image à gauche ou à droite, article de tête sur deux colonnes).</item>
+			<item>⁠Corpus remet toujours l’image dans sa figure, en 6.1 comme en 6.2. Indispensable avant de passer un site en Joomla 6.2.</item>
+		</fix>
+		<addition>
+			<item>⁠Douze nouveaux pictogrammes pour les outils de fichier : envoyer, télécharger, nouveau dossier, renommer, déplacer, copier, recadrer, alléger, supprimer, galerie, insérer, remplacer.</item>
+		</addition>
+		<note>
+			<item>⁠Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+</changelogs>

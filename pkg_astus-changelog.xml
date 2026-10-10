@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+NOTES DE VERSION, lues par Joomla (Système, Mettre à jour, Extensions,
+bouton « Notes de version »). Joomla ne montre que l'entrée dont la version
+est exactement celle proposée : en écrire une à chaque publication.
+
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE ET JAMAIS L'ENTITE, MOINS DE 290 OCTETS : Joomla fait une puce
+de chaque morceau que lui livre l'analyseur XML, qui coupe aux entités et au
+premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
+		<version>2.1.183</version>
+		<addition>
+			<item>⁠L’assistant des visiteurs a une page de présentation : son premier onglet présente Astus, avec le manuel, l’assistance et vos téléchargements.</item>
+		</addition>
+		<change>
+			<item>⁠Les réglages de l’assistant des visiteurs passent dans un onglet à part, « Paramétrages », juste après la présentation.</item>
+		</change>
+		<note>
+			<item>⁠Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+</changelogs>

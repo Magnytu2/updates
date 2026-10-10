@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+NOTES DE VERSION, lues par Joomla (Système, Mettre à jour, Extensions,
+bouton « Notes de version »). Joomla ne montre que l'entrée dont la version
+est exactement celle proposée : en écrire une à chaque publication.
+
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE ET JAMAIS L'ENTITE, MOINS DE 290 OCTETS : Joomla fait une puce
+de chaque morceau que lui livre l'analyseur XML, qui coupe aux entités et au
+premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_oculus_client</element>
+		<type>package</type>
+		<version>2.1.1</version>
+		<fix>
+			<item>⁠La 2.1.0 reprenait le jeton de l’ancien plugin, mais pas l’autorisation des mises à jour à distance : le site ne répondait plus à ces mises à jour. La reprise recopie maintenant tous les réglages.</item>
+		</fix>
+		<note>
+			<item>⁠N’installez pas la 2.1.0 : passez directement à cette version.</item>
+		</note>
+	</changelog>
+</changelogs>

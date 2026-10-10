@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+NOTES DE VERSION, lues par Joomla (Système, Mettre à jour, Extensions,
+bouton « Notes de version »). Joomla ne montre que l'entrée dont la version
+est exactement celle proposée : en écrire une à chaque publication.
+
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE ET JAMAIS L'ENTITE, MOINS DE 290 OCTETS : Joomla fait une puce
+de chaque morceau que lui livre l'analyseur XML, qui coupe aux entités et au
+premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
+-->
+<changelogs>
+	<changelog>
+		<element>mod_oculus</element>
+		<type>module</type>
+		<version>2.5.3</version>
+		<addition>
+			<item>⁠Les incidents en cours (site injoignable, page d’accueil en erreur) s’affichent dans un bandeau rouge, en tête du tableau de bord.</item>
+		</addition>
+		<note>
+			<item>⁠À utiliser avec la tâche planifiée Oculus 2.3.1. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+</changelogs>

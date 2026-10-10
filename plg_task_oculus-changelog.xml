@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+NOTES DE VERSION, lues par Joomla (Système, Mettre à jour, Extensions,
+bouton « Notes de version »). Joomla ne montre que l'entrée dont la version
+est exactement celle proposée : en écrire une à chaque publication.
+
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE ET JAMAIS L'ENTITE, MOINS DE 290 OCTETS : Joomla fait une puce
+de chaque morceau que lui livre l'analyseur XML, qui coupe aux entités et au
+premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
+-->
+<changelogs>
+	<changelog>
+		<element>oculus</element>
+		<type>plugin</type>
+		<version>2.3.1</version>
+		<addition>
+			<item>⁠Alerte par mail quand la page d’accueil d’un site est en erreur ou que le site est injoignable : mail urgent, puis rappels jusqu’à ce que la réparation soit confirmée.</item>
+			<item>⁠Alerte aussi quand un super user est ajouté, une extension installée ou activée, une tâche planifiée créée, ou une mise à jour disponible.</item>
+		</addition>
+		<note>
+			<item>⁠Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+</changelogs>

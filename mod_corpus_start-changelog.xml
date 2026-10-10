@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+NOTES DE VERSION, lues par Joomla (Système, Mettre à jour, Extensions,
+bouton « Notes de version »). Joomla ne montre que l'entrée dont la version
+est exactement celle proposée : en écrire une à chaque publication.
+
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE ET JAMAIS L'ENTITE, MOINS DE 290 OCTETS : Joomla fait une puce
+de chaque morceau que lui livre l'analyseur XML, qui coupe aux entités et au
+premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
+-->
+<changelogs>
+	<changelog>
+		<element>mod_corpus_start</element>
+		<type>module</type>
+		<version>1.0.16</version>
+		<change>
+			<item>⁠Le module n’écrit plus de classes d’article dans les liens de menu : le placement des images se règle dans le template blog de Corpus, posé sur la catégorie.</item>
+		</change>
+		<fix>
+			<item>⁠L’installation s’arrête et le dit si le style dédié ne s’applique à aucune page, au lieu de laisser le site sur le style par défaut sans prévenir.</item>
+		</fix>
+		<note>
+			<item>⁠Demande Corpus 2.1.24 ou plus récent.</item>
+		</note>
+	</changelog>
+</changelogs>
