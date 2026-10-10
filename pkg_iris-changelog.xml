@@ -6,21 +6,22 @@
 		<type>package</type>
 		<version>3.0.060</version>
 		<addition>
-			<item>Galeries : une galerie par catégorie, deux types de liens de menu (une galerie, la liste des galeries) et un module, Iris Galeries, pour en placer une dans une position.</item>
-			<item>Dix mises en page de galerie, et le choix de la visionneuse : celle d&apos;Iris ou une visionneuse classique.</item>
-			<item>Galeries de documents, avec le téléchargement de toute la galerie en une archive zip.</item>
-			<item>Import des galeries de SP Easy Image Gallery.</item>
-			<item>Un bouton « Présentation d&apos;Iris » en haut de chaque écran du composant : manuel, assistance et dernière version.</item>
+			<item>⁠Galeries : une galerie par catégorie, deux types de liens de menu (une galerie, la liste des galeries) et un module, Iris Galeries, pour en placer une dans une position.</item>
+			<item>⁠Dix mises en page de galerie, et le choix de la visionneuse : celle d’Iris ou une visionneuse classique.</item>
+			<item>⁠Galeries de documents, avec le téléchargement de toute la galerie en une archive zip.</item>
+			<item>⁠Import des galeries de SP Easy Image Gallery.</item>
+			<item>⁠Un bouton « Présentation d’Iris » en haut de chaque écran du composant : manuel, assistance et dernière version.</item>
 		</addition>
 		<change>
-			<item>À l&apos;envoi, Iris demande avant de renommer un fichier, au lieu de le faire d&apos;office.</item>
-			<item>Administration harmonisée avec les autres produits Joomanji : mêmes couleurs, mêmes bulles d&apos;aide, mêmes fenêtres de confirmation, en mode clair comme en mode sombre.</item>
+			<item>⁠À l’envoi, Iris demande avant de renommer un fichier, au lieu de le faire d’office.</item>
+			<item>⁠Administration harmonisée avec les autres produits Joomanji : mêmes couleurs, mêmes bulles d’aide, mêmes fenêtres de confirmation, en mode clair comme en mode sombre.</item>
 		</change>
 		<fix>
-			<item>Sur certains sites, le site de mise à jour d&apos;Iris avait pris la place de celui des traductions de Joomla : aucune mise à jour d&apos;Iris n&apos;était proposée, et le pack de langue anglais ne recevait plus les siennes. L&apos;installation répare les deux. Un site touché doit installer cette version une fois à la main.</item>
+			<item>⁠Sur certains sites, le site de mise à jour d’Iris avait pris la place de celui des traductions de Joomla : aucune mise à jour d’Iris n’était proposée.</item>
+			<item>⁠Le pack de langue anglais ne recevait plus ses traductions. L’installation répare les deux. Un site touché doit installer cette version une fois à la main.</item>
 		</fix>
 		<note>
-			<item>Joomla 6.1 ou plus récent. Aucun réglage à refaire.</item>
+			<item>⁠Joomla 6.1 ou plus récent. Aucun réglage à refaire.</item>
 		</note>
 	</changelog>
 	<changelog>
@@ -28,7 +29,7 @@
 		<type>package</type>
 		<version>3.0.045</version>
 		<change>
-			<item>Dans le menu Contenu, « Iris Médias » devient « Iris Médiathèque » (anglais : Iris Media Library, allemand : Iris Mediathek, espagnol : Iris Mediateca). C&apos;est le nom employé dans Iris et dans le manuel, et il ne se confond plus avec « Média », le gestionnaire de Joomla juste au-dessus.</item>
+			<item>⁠Dans le menu Contenu, « Iris Médias » devient « Iris Médiathèque » (anglais : Iris Media Library, allemand : Iris Mediathek, espagnol : Iris Mediateca). C’est le nom employé dans Iris et dans le manuel, et il ne se confond plus avec « Média », le gestionnaire de Joomla juste au-dessus.</item>
 		</change>
 	</changelog>
 	<changelog>
@@ -36,12 +37,12 @@
 		<type>package</type>
 		<version>3.0.044</version>
 		<fix>
-			<item>Système, Maintenance, Base de données affichait « Un problème » pour Iris (« Iris version () »). Le manifeste du composant s&apos;appelait com_iris.xml ; Joomla le cherche sous le nom iris.xml (administrator/components/com_iris/iris.xml). La version d&apos;Iris restait donc vide et Joomla croyait la base en retard, alors qu&apos;elle n&apos;avait aucun défaut. Le manifeste est renommé, et la mise à jour retire l&apos;ancien fichier.</item>
-			<item>Un dossier qui contient un fichier utilisé sur le site ne peut plus être supprimé : le serveur refuse aussi, y compris depuis le gestionnaire de médias de Joomla.</item>
+			<item>⁠Système, Maintenance, Base de données affichait « Un problème » pour Iris (« Iris version () »). Le manifeste du composant s’appelait com_iris.xml ; Joomla le cherche sous le nom iris.xml (administrator/components/com_iris/iris.xml). La version d’Iris restait donc vide et Joomla croyait la base en retard, alors qu’elle n’avait aucun défaut. Le manifeste est renommé, et la mise à jour retire l’ancien fichier.</item>
+			<item>⁠Un dossier qui contient un fichier utilisé sur le site ne peut plus être supprimé : le serveur refuse aussi, y compris depuis le gestionnaire de médias de Joomla.</item>
 		</fix>
 		<addition>
-			<item>Barre de progression pour supprimer, déplacer, copier, envoyer et alléger plusieurs fichiers.</item>
-			<item>Dans le menu Dossiers, Renommer et Supprimer sont inactifs quand le dossier contient un fichier utilisé, avec la raison et la liste des fichiers.</item>
+			<item>⁠Barre de progression pour supprimer, déplacer, copier, envoyer et alléger plusieurs fichiers.</item>
+			<item>⁠Dans le menu Dossiers, Renommer et Supprimer sont inactifs quand le dossier contient un fichier utilisé, avec la raison et la liste des fichiers.</item>
 		</addition>
 	</changelog>
 </changelogs>

@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), ET AUCUN &apos; :
+Joomla (libraries/src/Changelog/Changelog.php, characterData) fait une
+puce de CHAQUE morceau de texte que lui livre l'analyseur XML. Celui-ci
+coupe a chaque entite et au premier caractere non ASCII (puis tous les
+300 octets). Vu le 10 octobre 2026 sur joomanji.eu : « cat » / « egorie ».
+Un item qui commence par un caractere non ASCII arrive en un seul morceau,
+s'il fait moins de 300 octets. Apostrophe typographique, jamais &apos;.
+-->
 <changelogs>
 <changelog>
 <element>mod_opus</element>
 <type>module</type>
 <version>1.5.514</version>
 <addition>
-<item>Agenda : une troisième source d&apos;événements, l&apos;adresse d&apos;un calendrier en ligne au format .ics (Google, Outlook, Apple, Nextcloud), avec les séances répétées et une durée de cache réglable.</item>
-<item>Agenda : deux vues de plus, Jour et Année, à côté de Mois et Liste.</item>
+<item>⁠Agenda : une troisième source d’événements, l’adresse d’un calendrier en ligne au format .ics (Google, Outlook, Apple, Nextcloud), avec les séances répétées et une durée de cache réglable.</item>
+<item>⁠Agenda : deux vues de plus, Jour et Année, à côté de Mois et Liste.</item>
 </addition>
 <change>
-<item>La mise en page de démarrage « Plan d&apos;accès » s&apos;appelle maintenant « Carte ».</item>
-<item>Administration : les bulles d&apos;aide s&apos;ouvrent au clic et se ferment par une croix, et les fenêtres de confirmation sont les mêmes que dans les autres produits Joomanji.</item>
+<item>⁠La mise en page de démarrage « Plan d’accès » s’appelle maintenant « Carte ».</item>
+<item>⁠Administration : les bulles d’aide s’ouvrent au clic et se ferment par une croix, et les fenêtres de confirmation sont les mêmes que dans les autres produits Joomanji.</item>
 </change>
 <fix>
-<item>Un module Opus appelé par {loadmodule} dans un article garde les couleurs du template Corpus.</item>
+<item>⁠Un module Opus appelé par {loadmodule} dans un article garde les couleurs du template Corpus.</item>
 </fix>
 <note>
-<item>Aucun réglage à refaire : vos mises en page existantes restent telles quelles.</item>
+<item>⁠Aucun réglage à refaire : vos mises en page existantes restent telles quelles.</item>
 </note>
 </changelog>
 	<changelog>
@@ -24,18 +33,18 @@
 		<type>module</type>
 		<version>1.5.400</version>
 		<addition>
-			<item>Élément Tableau : une grille qu'on remplit ou qu'on colle depuis Excel ou LibreOffice, des réglages par ligne, colonne et cellule, et un affichage en fiches sur téléphone.</item>
-			<item>Élément Vidéo : YouTube, Vimeo, Dailymotion, PeerTube ou un fichier du site, chargée seulement au clic, avec transcription et sous-titres.</item>
-			<item>Élément Carte : des lieux sur OpenStreetMap, sans clé ni compte Google, saisis à la main ou tirés des articles d'une catégorie, avec liste, fiches et itinéraire.</item>
-			<item>Élément Agenda : vues mois, liste ou mini calendrier, fiches d'événements, séances répétées, événements saisis ou tirés des articles et de leurs champs personnalisés, « Ajouter à mon agenda » (Google, Outlook, .ics) et événements en ligne.</item>
-			<item>Tous les liens d'Opus peuvent désormais viser un article, choisi dans la fenêtre de sélection de Joomla.</item>
-			<item>Nouvelles mises en page de démarrage : Horaires en tableau, Vidéo présentée, Plan d'accès et Agenda.</item>
+			<item>⁠Élément Tableau : une grille qu'on remplit ou qu'on colle depuis Excel ou LibreOffice, des réglages par ligne, colonne et cellule, et un affichage en fiches sur téléphone.</item>
+			<item>⁠Élément Vidéo : YouTube, Vimeo, Dailymotion, PeerTube ou un fichier du site, chargée seulement au clic, avec transcription et sous-titres.</item>
+			<item>⁠Élément Carte : des lieux sur OpenStreetMap, sans clé ni compte Google, saisis à la main ou tirés des articles d'une catégorie, avec liste, fiches et itinéraire.</item>
+			<item>⁠Élément Agenda : vues mois, liste ou mini calendrier, fiches d'événements, séances répétées, événements saisis ou tirés des articles et de leurs champs personnalisés, « Ajouter à mon agenda » (Google, Outlook, .ics) et événements en ligne.</item>
+			<item>⁠Tous les liens d'Opus peuvent désormais viser un article, choisi dans la fenêtre de sélection de Joomla.</item>
+			<item>⁠Nouvelles mises en page de démarrage : Horaires en tableau, Vidéo présentée, Plan d'accès et Agenda.</item>
 		</addition>
 		<change>
-			<item>Nouvelle page d'accueil du module : manuel, assistance, téléchargement et avis sur le JED.</item>
+			<item>⁠Nouvelle page d'accueil du module : manuel, assistance, téléchargement et avis sur le JED.</item>
 		</change>
 		<note>
-			<item>Aucun réglage à refaire : vos mises en page existantes restent telles quelles.</item>
+			<item>⁠Aucun réglage à refaire : vos mises en page existantes restent telles quelles.</item>
 		</note>
 	</changelog>
 	<changelog>
@@ -43,11 +52,11 @@
 		<type>module</type>
 		<version>1.5.305</version>
 		<fix>
-			<item>Bloc simple : le réglage « Position verticale » (En haut, En bas) restait sans effet quand la rangée centrait ses colonnes. Le bloc se place maintenant là où il est réglé. Si un de vos blocs était enregistré « En haut » sous une rangée centrée, il montera en haut après la mise à jour : c'est le réglage qu'il portait déjà.</item>
-			<item>Enregistrement : un module très rempli (beaucoup de rangées, de blocs et d'éléments) pouvait être refusé par certains hébergeurs avec une erreur « Bad Request ». Opus n'envoie plus que les champs utiles.</item>
+			<item>⁠Bloc simple : le réglage « Position verticale » (En haut, En bas) restait sans effet quand la rangée centrait ses colonnes. Le bloc se place maintenant là où il est réglé. Si un de vos blocs était enregistré « En haut » sous une rangée centrée, il montera en haut après la mise à jour : c'est le réglage qu'il portait déjà.</item>
+			<item>⁠Enregistrement : un module très rempli (beaucoup de rangées, de blocs et d'éléments) pouvait être refusé par certains hébergeurs avec une erreur « Bad Request ». Opus n'envoie plus que les champs utiles.</item>
 		</fix>
 		<note>
-			<item>Correctif sans nouvelle fonction. Aucun réglage à refaire.</item>
+			<item>⁠Correctif sans nouvelle fonction. Aucun réglage à refaire.</item>
 		</note>
 	</changelog>
 </changelogs>
