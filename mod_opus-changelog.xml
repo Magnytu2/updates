@@ -12,6 +12,17 @@ s'il fait moins de 300 octets. Apostrophe typographique, jamais &apos;.
 	<changelog>
 		<element>mod_opus</element>
 		<type>module</type>
+		<version>1.5.522</version>
+		<change>
+			<item>⁠Les pictogrammes du module suivent de nouveau ceux du template Corpus.</item>
+		</change>
+		<note>
+			<item>⁠Version de sécurité pour Joomla 6.2 : aucune nouvelle fonction, aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>mod_opus</element>
+		<type>module</type>
 		<version>1.5.521</version>
 		<fix>
 			<item>⁠Les images rondes (portraits) sortaient carrées dans un article affiché par le template Corpus.</item>
