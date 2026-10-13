@@ -13,6 +13,23 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_formulus</element>
 		<type>package</type>
+		<version>1.0.505</version>
+		<addition>
+			<item>⁠Un bouton « Formulus : poser un formulaire » dans l’éditeur : partir d’un modèle ou d’un formulaire existant et le placer dans l’article.</item>
+			<item>⁠Chaque formulaire posé devient une carte dans l’éditeur : le déplacer, le modifier, le voir en aperçu ou le retirer.</item>
+			<item>⁠Dans la liste des modules, une note dit dans quel article chaque formulaire est posé.</item>
+		</addition>
+		<change>
+			<item>⁠L’aperçu montre le formulaire avec le template du site.</item>
+			<item>⁠« Modifier » ouvre le formulaire sur l’onglet Champs.</item>
+		</change>
+		<note>
+			<item>⁠Deux plugins s’ajoutent au paquet et s’activent seuls. Prêt pour Joomla 6.2. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
 		<version>1.0.413</version>
 		<addition>
 			<item>⁠Un module, Formulus, pour afficher un formulaire dans une position de module.</item>

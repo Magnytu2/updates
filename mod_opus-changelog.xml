@@ -9,6 +9,25 @@ Un item qui commence par un caractere non ASCII arrive en un seul morceau,
 s'il fait moins de 300 octets. Apostrophe typographique, jamais &apos;.
 -->
 <changelogs>
+	<changelog>
+		<element>mod_opus</element>
+		<type>module</type>
+		<version>1.5.521</version>
+		<fix>
+			<item>⁠Les images rondes (portraits) sortaient carrées dans un article affiché par le template Corpus.</item>
+			<item>⁠La liste « Élément » d’une ligne d’image se déplie de nouveau.</item>
+			<item>⁠Sur le site, la croix du panneau des réglages revient dans son angle.</item>
+			<item>⁠Plus de trait du template Corpus sous les titres de zone.</item>
+		</fix>
+		<change>
+			<item>⁠Un trait autour des champs du montage : on les distingue mieux du fond.</item>
+			<item>⁠La grande fenêtre du crayon prend presque tout l’écran.</item>
+			<item>⁠L’aperçu d’une image est montré en entier dans sa zone.</item>
+		</change>
+		<note>
+			<item>⁠Correctifs sans nouvelle fonction, prêts pour Joomla 6.2. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
 <changelog>
 <element>mod_opus</element>
 <type>module</type>

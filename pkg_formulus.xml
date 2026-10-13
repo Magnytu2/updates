@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SERVEUR DE MISE A JOUR : Formulus
+SERVEUR DE MISE A JOUR : Formulus
 
-	Publie a https://magnytu2.github.io/updates/pkg_formulus.xml
-	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
-	<updateservers> dans le manifeste du paquet.
+Publie a https://magnytu2.github.io/updates/pkg_formulus.xml
+Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
+<updateservers> dans le manifeste du paquet.
 
-	1.0.303, le 30 septembre 2026 : premiere publication. Composant de
-	formulaires accessibles pour Joomla 6, gratuit, avec trois plugins
-	(champs, confidentialite, tache planifiee). JED Checker passe.
-	Mesure sur Joomla 6 uniquement, d'ou la plateforme cible limitee a la 6.
+1.0.303, le 30 septembre 2026 : premiere publication. Composant de
+formulaires accessibles pour Joomla 6, gratuit, avec trois plugins
+(champs, confidentialite, tache planifiee). JED Checker passe.
+Mesure sur Joomla 6 uniquement, d'ou la plateforme cible limitee a la 6.
+1.0.413, le 9 octobre 2026 : module mod_formulus, charte Joomanji.
+1.0.505, le 13 octobre 2026 (jour de Joomla 6.2) : serie 1.0.5xx,
+poser un formulaire dans un article (plg_editors-xtd_formulus et
+plg_system_formulus, nouveaux). La serie 1.0.4xx reste celle des
+corrections de la 1.0.413.
 -->
 <updates>
-	<update>
-		<name>Formulus</name>
-		<description>Formulus : des formulaires accessibles pour Joomla, sur les champs personnalises.</description>
-		<element>pkg_formulus</element>
-		<type>package</type>
-		<client>site</client>
-		<version>1.0.413</version>
-		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_formulus-1.0.413.zip</downloadurl>
-		</downloads>
-		<changelogurl>https://magnytu2.github.io/updates/pkg_formulus-changelog.xml</changelogurl>
-		<sha256>2ad01161b33182f45d22283131f58cc47e243450a5f43a5f772a9e914761ec36</sha256>
-		<tags><tag>stable</tag></tags>
-		<maintainer>Joomanji</maintainer>
-		<maintainerurl>https://joomanji.eu</maintainerurl>
-		<infourl title="Formulus">https://joomanji.eu/fr/formulus</infourl>
-		<targetplatform name="joomla" version="6\."/>
-		<php_minimum>8.3</php_minimum>
-	</update>
+<update>
+<name>Formulus</name>
+<description>Formulus : des formulaires accessibles pour Joomla, sur les champs personnalises.</description>
+<element>pkg_formulus</element>
+<type>package</type>
+<client>site</client>
+<version>1.0.505</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_formulus-1.0.505.zip</downloadurl>
+</downloads>
+<changelogurl>https://magnytu2.github.io/updates/pkg_formulus-changelog.xml</changelogurl>
+<sha256>3f12e4e385868f2f14e1aaea10936edb2d60b98ad61ac1ac8b140a2cb265d38c</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Formulus">https://joomanji.eu/fr/formulus</infourl>
+<targetplatform name="joomla" version="6\."/>
+<php_minimum>8.3</php_minimum>
+</update>
 </updates>

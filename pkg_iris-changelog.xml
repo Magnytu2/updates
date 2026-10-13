@@ -4,6 +4,23 @@
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.064</version>
+		<addition>
+			<item>⁠Les galeries dans l’article : le bouton « Iris - Galeries » ouvre un panneau à trois onglets, Mise en page, Galeries et Reprendre.</item>
+			<item>⁠Les 15 mises en page du module Iris Galeries se posent directement dans l’article.</item>
+			<item>⁠Chaque galerie posée devient une carte dans l’éditeur : la déplacer, la modifier, la voir en aperçu ou la retirer.</item>
+		</addition>
+		<fix>
+			<item>⁠« Mettre à jour dans l’article » s’affichait avec une barre oblique en trop.</item>
+			<item>⁠Le titre d’une carte de galerie ne se souligne plus au survol (il y avait deux traits).</item>
+		</fix>
+		<note>
+			<item>⁠Prêt pour Joomla 6.2. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.060</version>
 		<addition>
 			<item>⁠Galeries : une galerie par catégorie, deux types de liens de menu (une galerie, la liste des galeries) et un module, Iris Galeries, pour en placer une dans une position.</item>

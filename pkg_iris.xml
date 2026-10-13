@@ -13,20 +13,23 @@ CE NUMERO NE RECULE JAMAIS.
 3.0.060, publie le 9 octobre 2026, zip refait le 10 octobre 2026 (meme
 numero) : le script du paquet repare le site de mise a jour des traductions
 quand il porte l'adresse d'Iris.
+3.0.064, publie le 13 octobre 2026 (jour de Joomla 6.2) : les galeries
+dans l'article (panneau Mise en page, Galeries, Reprendre ; cartes dans
+l'editeur). Contient 3.0.061 a 3.0.063, jamais publiees seules.
 -->
 <updates>
 <update>
 <name>Iris</name>
-<description>Iris 3.0.045 : dans le menu Contenu, « Iris Médias » devient « Iris Médiathèque », le nom employé partout ailleurs et qui ne se confond plus avec « Média » de Joomla. Reprend aussi la 3.0.044 : l&apos;alerte « Un problème » de Système, Maintenance, Base de données est corrigée (le manifeste du composant s&apos;appelait com_iris.xml alors que Joomla le cherche sous le nom iris.xml ; la base n&apos;avait aucun défaut), barre de progression, dossiers contenant un fichier utilisé verrouillés.</description>
+<description>Iris 3.0.064 : les galeries se posent dans un article depuis l'éditeur (bouton « Iris - Galeries »), avec les 15 mises en page du module, et chaque galerie posée devient une carte qu'on déplace, modifie, prévisualise ou retire.</description>
 <element>pkg_iris</element>
 <type>package</type>
 <client>site</client>
-<version>3.0.060</version>
+<version>3.0.064</version>
 <downloads>
-<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.060.zip</downloadurl>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.064.zip</downloadurl>
 </downloads>
 <changelogurl>https://magnytu2.github.io/updates/pkg_iris-changelog.xml</changelogurl>
-<sha256>e629d6794b849371a66bfb308b9ce2b28afd0bd6f71a7b2937dcda667857e00e</sha256>
+<sha256>dcc51f38a67902f57aff8dc5437b5a0c5cdfde2e9c59fcf75745067343deddac</sha256>
 <tags>
 <tag>stable</tag>
 </tags>
