@@ -17,7 +17,7 @@ Le jour de Joomla 6.3.0 : premiere entree 6\.[3-9], seconde 6\.2, et la
 Sert les sites qui ont encore le MODULE SEUL. En 6.2, l'entree mod_opus
 pointe sur le zip du PAQUET : Joomla installe le paquet par-dessus le module
 (memes modules, memes reglages), puis le script du paquet retire la fiche
-mod_opus.xml du site. En 6.1, le module seul 1.5.521 reste servi.
+mod_opus.xml du site. En 6.1, le module seul 1.5.522 reste servi.
 -->
 <updates>
 <update>
@@ -47,12 +47,12 @@ mod_opus.xml du site. En 6.1, le module seul 1.5.521 reste servi.
 <element>mod_opus</element>
 <type>module</type>
 <client>site</client>
-<version>1.5.521</version>
+<version>1.5.522</version>
 <downloads>
-<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.521.zip</downloadurl>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.522.zip</downloadurl>
 </downloads>
 <changelogurl>https://magnytu2.github.io/updates/mod_opus-changelog.xml</changelogurl>
-<sha256>a34d30626793387bdeae8de01343be6140aee09606fb9fef4a07ff0b827fe868</sha256>
+<sha256>6efbc17daad731738af056b3948a871f658f70934e7b9761780ef363037c3c39</sha256>
 <tags>
 <tag>stable</tag>
 </tags>
