@@ -1,44 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SERVEUR DE MISE A JOUR : Astus
+SERVEUR DE MISE A JOUR : Astus
+Publie a https://magnytu2.github.io/updates/pkg_astus.xml
+Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
+<updateservers> dans le manifeste.
 
-	Publie a https://magnytu2.github.io/updates/pkg_astus.xml
-	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
-	<updateservers> dans le manifeste de l'extension.
-
-	VERSION STABLE. Depuis le 27 aout 2026, tous les produits Joomanji sont
-	stables : plus aucun suffixe -rc, et <tag> vaut `stable`.
-
-	NUMEROTATION : depuis le 2 octobre 2026, trois chiffres derriere.
-	2.1.18 a ete la derniere de l'ancien rythme ; suivent 2.1.180, 2.1.181...
-	version_compare lit bien 2.1.180 au-dessus de 2.1.8 et de 2.1.18.
-
-	Les six extensions contenues portent le meme numero que l'emballage.
-	Sans cela le composant afficherait son ancien numero a l'ecran.
-
-	2.1.180, publie le 2 octobre 2026 : assistant des visiteurs, plan de site
-	tenu a jour automatiquement.
+DEUX CHEMINS, JAMAIS TROIS (CLAUDE.md commun, paragraphe 10), depuis le
+16 octobre 2026 (Joomla 6.2.0 sorti le 13 octobre) :
+- premiere entree : la version courante, pour Joomla 6.2 et plus
+  (targetplatform 6\.[2-9]) ; le paquet refuse aussi de s'installer
+  sous 6.2.0 (second verrou, script du paquet) ;
+- seconde entree : la derniere version publiee pour Joomla 6.1, qui ne
+  recoit plus que des correctifs mineurs et de securite.
+Le jour de Joomla 6.3.0 : premiere entree 6\.[3-9], seconde 6\.2, et la
+6.1 disparait.
 -->
 <updates>
-	<update>
-		<name>Astus</name>
-		<description>Astus - assistant IA agentique et suite SEO pour Joomla : le composant, le plugin systeme, le tableau de bord SEO, le module de configuration, l'audit du site et l'assistant des visiteurs.</description>
-		<element>pkg_astus</element>
-		<type>package</type>
-		<client>site</client>
-		<version>2.1.183</version>
-		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.183.zip</downloadurl>
-		</downloads>
-		<changelogurl>https://magnytu2.github.io/updates/pkg_astus-changelog.xml</changelogurl>
-		<sha256>43f7b27fefdf5a78cbcd85c9b80955ac10488f5c43da7086c451f50fb329a3f0</sha256>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomanji</maintainer>
-		<maintainerurl>https://joomanji.eu</maintainerurl>
-		<infourl title="Astus">https://joomanji.eu</infourl>
-		<targetplatform name="joomla" version="(5|6)\.[0-9]"/>
-		<php_minimum>8.1</php_minimum>
-	</update>
+<update>
+<name>Astus</name>
+<description>Astus - assistant IA agentique et suite SEO pour Joomla : le composant, le plugin systeme, le tableau de bord SEO, le module de configuration, l'audit du site et l'assistant des visiteurs.</description>
+<element>pkg_astus</element>
+<type>package</type>
+<client>site</client>
+<version>2.1.186</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.186.zip</downloadurl>
+</downloads>
+<changelogurl>https://magnytu2.github.io/updates/pkg_astus-changelog.xml</changelogurl>
+<sha256>43b316bfbc5dd980e5c14ddecc998762b64e1c383d54ad4daf1457c1f9b21f66</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Astus">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.[2-9]"/>
+<php_minimum>8.1</php_minimum>
+</update>
+<update>
+<name>Astus</name>
+<description>Astus - assistant IA agentique et suite SEO pour Joomla : le composant, le plugin systeme, le tableau de bord SEO, le module de configuration, l'audit du site et l'assistant des visiteurs.</description>
+<element>pkg_astus</element>
+<type>package</type>
+<client>site</client>
+<version>2.1.183</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_astus-2.1.183.zip</downloadurl>
+</downloads>
+<changelogurl>https://magnytu2.github.io/updates/pkg_astus-changelog.xml</changelogurl>
+<sha256>43f7b27fefdf5a78cbcd85c9b80955ac10488f5c43da7086c451f50fb329a3f0</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Astus">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.1"/>
+<php_minimum>8.1</php_minimum>
+</update>
 </updates>

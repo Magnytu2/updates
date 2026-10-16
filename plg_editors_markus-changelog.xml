@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE, MOINS DE 290 OCTETS : Joomla fait une puce de chaque morceau
+que lui livre l'analyseur XML.
+-->
+<changelogs>
+	<changelog>
+		<element>markus</element>
+		<type>plugin</type>
+		<version>1.0.089</version>
+		<addition>
+			<item>⁠Première version publique de Markus Editor : un éditeur par blocs qui remplace TinyMCE (paragraphes, titres, listes, citations, images, tableaux, colonnes, modules...).</item>
+			<item>⁠Le Markdown s’écrit au clavier ; un Markdown collé devient des blocs ; ouvrir et enregistrer un fichier .md.</item>
+			<item>⁠Collage nettoyé depuis Word, Google Docs ou LibreOffice ; HTML propre, que TinyMCE relit tel quel.</item>
+			<item>⁠Vérification de l’accessibilité pendant l’écriture, orthographe avec LanguageTool, notes de bas de page, plan de l’article.</item>
+			<item>⁠Les boutons de Joomla et des extensions (Article, Image, Menu, Opus, Iris, Formulus) fonctionnent comme avec TinyMCE.</item>
+		</addition>
+		<note>
+			<item>⁠Joomla 6.2 et PHP 8.3 minimum. Gratuit. On peut revenir à TinyMCE à tout moment.</item>
+		</note>
+	</changelog>
+</changelogs>

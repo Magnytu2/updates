@@ -13,6 +13,15 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_tikus</element>
 		<type>package</type>
+		<version>2.9.012</version>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Un site resté en Joomla 6.1 garde sa version actuelle et ne se voit rien proposer qui pourrait le casser.</item>
+			<item>⁠Aucun autre changement : vos demandes et leurs échanges restent tels quels.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_tikus</element>
+		<type>package</type>
 		<version>2.9.011</version>
 		<change>
 			<item>⁠La réponse et les échanges ne font plus qu’un onglet, « Conversation » : le fil défile au-dessus de la zone de réponse, du plus ancien au plus récent, ouvert sur le dernier message.</item>

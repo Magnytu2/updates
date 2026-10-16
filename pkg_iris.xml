@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-SERVEUR DE MISE A JOUR : Iris (paquet)
+SERVEUR DE MISE A JOUR : Iris
 Publie a https://magnytu2.github.io/updates/pkg_iris.xml
 Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
-<updateservers> dans le manifeste du paquet (pkg_iris.xml).
-Iris devient un paquet en 3.0 : com_iris (mediatheque, galeries,
-conversion WebP), plg_system_iris (pastilles), plg_content_iris et
-plg_editors-xtd_iris. Joomla 6 seulement : le script du paquet refuse un
-Joomla plus ancien. Les sites Joomla 4 et 5 restent en 2.1.1, annoncee par
-plg_system_iris.xml.
-CE NUMERO NE RECULE JAMAIS.
-3.0.060, publie le 9 octobre 2026, zip refait le 10 octobre 2026 (meme
-numero) : le script du paquet repare le site de mise a jour des traductions
-quand il porte l'adresse d'Iris.
-3.0.064, publie le 13 octobre 2026 (jour de Joomla 6.2) : les galeries
-dans l'article (panneau Mise en page, Galeries, Reprendre ; cartes dans
-l'editeur). Contient 3.0.061 a 3.0.063, jamais publiees seules.
+<updateservers> dans le manifeste.
+
+DEUX CHEMINS, JAMAIS TROIS (CLAUDE.md commun, paragraphe 10), depuis le
+16 octobre 2026 (Joomla 6.2.0 sorti le 13 octobre) :
+- premiere entree : la version courante, pour Joomla 6.2 et plus
+  (targetplatform 6\.[2-9]) ; le paquet refuse aussi de s'installer
+  sous 6.2.0 (second verrou, script du paquet) ;
+- seconde entree : la derniere version publiee pour Joomla 6.1, qui ne
+  recoit plus que des correctifs mineurs et de securite.
+Le jour de Joomla 6.3.0 : premiere entree 6\.[3-9], seconde 6\.2, et la
+6.1 disparait.
 -->
 <updates>
 <update>
 <name>Iris</name>
-<description>Iris 3.0.064 : les galeries se posent dans un article depuis l'éditeur (bouton « Iris - Galeries »), avec les 15 mises en page du module, et chaque galerie posée devient une carte qu'on déplace, modifie, prévisualise ou retire.</description>
+<description>Iris : mediatheque, galeries et images WebP pour Joomla 6 ; les galeries se posent aussi dans un article depuis l'editeur.</description>
+<element>pkg_iris</element>
+<type>package</type>
+<client>site</client>
+<version>3.0.066</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.066.zip</downloadurl>
+</downloads>
+<changelogurl>https://magnytu2.github.io/updates/pkg_iris-changelog.xml</changelogurl>
+<sha256>8cd0ad0e1fd0b0a8f8b9264a72bc72831d5eb705c892b9094cc86bac2d1b5bcc</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Iris">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.[2-9]"/>
+<php_minimum>8.1</php_minimum>
+</update>
+<update>
+<name>Iris</name>
+<description>Iris : mediatheque, galeries et images WebP pour Joomla 6 ; les galeries se posent aussi dans un article depuis l'editeur.</description>
 <element>pkg_iris</element>
 <type>package</type>
 <client>site</client>
@@ -36,7 +55,7 @@ l'editeur). Contient 3.0.061 a 3.0.063, jamais publiees seules.
 <maintainer>Joomanji</maintainer>
 <maintainerurl>https://joomanji.eu</maintainerurl>
 <infourl title="Iris">https://joomanji.eu</infourl>
-<targetplatform name="joomla" version="6\.[0-9]+"/>
+<targetplatform name="joomla" version="6\.1"/>
 <php_minimum>8.1</php_minimum>
 </update>
 </updates>

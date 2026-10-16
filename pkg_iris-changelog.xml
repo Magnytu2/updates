@@ -4,6 +4,17 @@
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.066</version>
+		<fix>
+			<item>⁠La fenêtre de confirmation reste fixe à l’écran et ne fait plus remonter l’article.</item>
+		</fix>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Un site resté en Joomla 6.1 garde sa version actuelle et ne se voit rien proposer qui pourrait le casser.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.064</version>
 		<addition>
 			<item>⁠Les galeries dans l’article : le bouton « Iris - Galeries » ouvre un panneau à trois onglets, Mise en page, Galeries et Reprendre.</item>

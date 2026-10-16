@@ -13,6 +13,22 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_astus</element>
 		<type>package</type>
+		<version>2.1.186</version>
+		<change>
+			<item>⁠Astus ne change plus l’adresse d’un article, d’une catégorie ou d’un lien de menu, sauf demande explicite ; il pose alors une redirection 301 depuis l’ancienne adresse.</item>
+			<item>⁠Il refuse si des pages enfants changeraient d’adresse, et ne réécrit jamais le titre d’un contenu publié sans votre accord.</item>
+			<item>⁠La vérification des liens se lance depuis le bouton du module, plus depuis le chat.</item>
+		</change>
+		<addition>
+			<item>⁠Astus est relié à Iris : il repère les images sans description et rédige leur texte alternatif.</item>
+		</addition>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Un site resté en Joomla 6.1 garde sa version actuelle et ne se voit rien proposer qui pourrait le casser.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
 		<version>2.1.183</version>
 		<addition>
 			<item>⁠L’assistant des visiteurs a une page de présentation : son premier onglet présente Astus, avec le manuel, l’assistance et vos téléchargements.</item>

@@ -13,6 +13,30 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_corpus</element>
 		<type>package</type>
+		<version>2.1.684</version>
+		<addition>
+			<item>⁠Réglage « Couleur de marque » : Corpus garde votre teinte et ajuste lui-même sa clarté pour qu’elle reste lisible, en clair comme en sombre.</item>
+			<item>⁠Réglage « Couleur secondaire », pour les filets.</item>
+			<item>⁠Réglage « Alignement des sous-menus » : début, centre ou fin.</item>
+			<item>⁠Polices : titres en graisse 500, fichier gras italique, polices variables, et une seconde police hébergée pour les titres.</item>
+		</addition>
+		<fix>
+			<item>⁠Plan de page : les liens mènent bien aux titres quand l’article a une introduction.</item>
+			<item>⁠La colonne du plan qui porte aussi un module ne chevauche plus rien : toute la colonne reste fixe à l’écran.</item>
+			<item>⁠Un titre de module en h1 prend la taille d’un h1.</item>
+		</fix>
+		<change>
+			<item>⁠Les petits textes de la rangée haute de l’en-tête sont mis en forme (taille, couleur, liens).</item>
+			<item>⁠Les sous-menus ne suivent plus l’alignement de la barre de menu.</item>
+		</change>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Un site resté en Joomla 6.1 garde sa version actuelle et ne se voit rien proposer qui pourrait le casser.</item>
+			<item>⁠Aucun réglage à refaire : les nouveaux réglages sont vides par défaut.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
 		<version>2.1.672</version>
 		<fix>
 			<item>⁠Joomla 6.2 : l’image d’introduction d’un article sortait sans sa figure quand elle n’avait pas de légende. Les blogs perdaient leur mise en page (image à gauche ou à droite, article de tête sur deux colonnes).</item>

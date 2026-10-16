@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+CHAQUE <item> COMMENCE PAR U+2060 (gluon de mots, invisible), APOSTROPHE
+TYPOGRAPHIQUE, MOINS DE 290 OCTETS : Joomla fait une puce de chaque morceau
+que lui livre l'analyseur XML.
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
+		<version>1.5.654</version>
+		<addition>
+			<item>⁠Opus devient un paquet : le module et deux plugins, installés et activés tout seuls. Vos modules et leurs réglages restent tels quels.</item>
+			<item>⁠Nouveau : poser un bloc Opus dans un article. Le bouton « Opus : poser un bloc » de l’éditeur ouvre un panneau : Mise en page, Élément, Reprendre.</item>
+			<item>⁠Dans l’article, chaque bloc devient une carte : la glisser, ajouter un bloc au-dessus ou au-dessous, la modifier en grande fenêtre, la voir en aperçu, la retirer.</item>
+			<item>⁠La liste des modules indique dans quel article chaque bloc est posé.</item>
+			<item>⁠Carte : zone d’intervention en temps de route ou en kilomètres. Cartes : nombre de colonnes au choix (automatique, 2, 3 ou 4).</item>
+			<item>⁠Agenda : dates plus lisibles, événements annuels, saisie de date plus souple, déclaration aux moteurs de recherche.</item>
+			<item>⁠Textes et tableaux : petite barre Gras, Italique, Lien, Liste ; paragraphes respectés ; mise en forme simple dans les cases.</item>
+		</addition>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Un site resté en Joomla 6.1 garde sa version actuelle et ne se voit rien proposer qui pourrait le casser.</item>
+		</note>
+	</changelog>
+</changelogs>

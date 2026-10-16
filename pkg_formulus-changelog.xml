@@ -13,6 +13,22 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_formulus</element>
 		<type>package</type>
+		<version>1.0.508</version>
+		<addition>
+			<item>⁠Écran d’un formulaire : bouton Options, et un bouton Prévisualiser.</item>
+			<item>⁠Un clic dans « Ce qui sortira » mène à la ligne du champ.</item>
+		</addition>
+		<change>
+			<item>⁠Les sections pliées restent pliées d’une ouverture à l’autre.</item>
+			<item>⁠La poignée de largeur du panneau « Formulus : poser un formulaire » est dans la langue du site.</item>
+		</change>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Un site resté en Joomla 6.1 garde sa version actuelle et ne se voit rien proposer qui pourrait le casser.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
 		<version>1.0.505</version>
 		<addition>
 			<item>⁠Un bouton « Formulus : poser un formulaire » dans l’éditeur : partir d’un modèle ou d’un formulaire existant et le placer dans l’article.</item>

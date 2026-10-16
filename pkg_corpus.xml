@@ -1,71 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	SERVEUR DE MISE A JOUR, Corpus
+SERVEUR DE MISE A JOUR : Corpus
+Publie a https://magnytu2.github.io/updates/pkg_corpus.xml
+Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
+<updateservers> dans le manifeste.
 
-	Publie a https://magnytu2.github.io/updates/pkg_corpus.xml
-	Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
-	<updateservers> dans le manifeste de l'extension.
-
-	VERSION STABLE. Depuis le 27 aout 2026, tous les produits Joomanji le sont :
-	plus aucun suffixe de version candidate, et <tag> vaut `stable`.
-
-	NE JAMAIS REPUBLIER UNE VERSION CANDIDATE SUR UN NUMERO DEJA STABLE. A
-	partie chiffree egale, Joomla la place EN DESSOUS du numero publie ici, et
-	plus personne ne verrait de mise a jour. Une candidate porte toujours le
-	numero SUIVANT.
-
-	2.1.66, le 27 septembre 2026. LES TAMPONS FONT ENFIN DE VRAIS BOUTONS.
-
-	Un bouton pose depuis la liste des modeles de TinyMCE sortait en LIEN NU,
-	et il sortait meme VIDE. Deux causes, sans rapport l'une avec l'autre.
-
-	La premiere : `jtemplate`, le composant que Joomla 6 a ecrit pour remplacer
-	le plugin `template` de TinyMCE 7, remplit sans condition tout element
-	portant la classe `selcontent` avec ce qui etait selectionne dans l'editeur.
-	Selection vide, bouton vide. Nos 56 blocs ont perdu cette classe.
-
-	La seconde : les blocs ecrivaient `btn btn-primary`, le vocabulaire de
-	Bootstrap, que Corpus ne sert pas. Ils ecrivent desormais `bouton`, la
-	classe de la maison. Les vingt boutons des blocs ont ete convertis, et les
-	deux blocs de petit bouton sont revenus.
-
-	LE CONTENU DEJA ECRIT N'EST PAS ABANDONNE. Un `btn` pose avant aujourd'hui
-	prend la forme du bouton de Corpus, sur le site comme dans l'editeur. Rien
-	a reprendre a la main dans les anciens articles.
-
-	L'EDITEUR MONTRE MAINTENANT LA COULEUR DU SITE. Son cadre ne chargeait que
-	les valeurs d'usine, donc l'olive, quelle que soit la teinte reglee. Il lit
-	desormais les reglages du style par defaut : ce qu'on voit en ecrivant est
-	ce que le visiteur verra. Pour en profiter, enregistrer une fois son style
-	apres la mise a jour.
-
-	AUSSI DANS CETTE VERSION : le script du site est livre allege, 32 ko au lieu
-	de 71, sans rien changer a ce qu'il fait ; les en-tetes de fichier sont en
-	anglais, pour les integrateurs qui reprennent le code ; et les tampons ont
-	tous la meme forme de marqueur, ce qui rend leur mise a jour sure.
-
-	2.1.67, publie le 1er octobre 2026.
+DEUX CHEMINS, JAMAIS TROIS (CLAUDE.md commun, paragraphe 10), depuis le
+16 octobre 2026 (Joomla 6.2.0 sorti le 13 octobre) :
+- premiere entree : la version courante, pour Joomla 6.2 et plus
+  (targetplatform 6\.[2-9]) ; le paquet refuse aussi de s'installer
+  sous 6.2.0 (second verrou, script du paquet) ;
+- seconde entree : la derniere version publiee pour Joomla 6.1, qui ne
+  recoit plus que des correctifs mineurs et de securite.
+Le jour de Joomla 6.3.0 : premiere entree 6\.[3-9], seconde 6\.2, et la
+6.1 disparait.
 -->
 <updates>
-	<update>
-		<name>Corpus</name>
-		<description>Corpus, le template Joomla 6 a grille de douze colonnes, accessible RGAA 4.1, et son plugin systeme.</description>
-		<element>pkg_corpus</element>
-		<type>package</type>
-		<client>site</client>
-		<version>2.1.672</version>
-		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.672.zip</downloadurl>
-		</downloads>
-		<changelogurl>https://magnytu2.github.io/updates/pkg_corpus-changelog.xml</changelogurl>
-		<sha256>af81ff2861d579e3ff34aefa0b5e6b41e3936ae17441c37ba222abcb0fbbd608</sha256>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomanji</maintainer>
-		<maintainerurl>https://joomanji.eu</maintainerurl>
-		<infourl title="Corpus">https://joomanji.eu</infourl>
-		<targetplatform name="joomla" version="6\.[0-9]+"/>
-		<php_minimum>8.1</php_minimum>
-	</update>
+<update>
+<name>Corpus</name>
+<description>Corpus, le template Joomla 6 a grille de douze colonnes, accessible RGAA 4.1, et son plugin systeme.</description>
+<element>pkg_corpus</element>
+<type>package</type>
+<client>site</client>
+<version>2.1.684</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.684.zip</downloadurl>
+</downloads>
+<changelogurl>https://magnytu2.github.io/updates/pkg_corpus-changelog.xml</changelogurl>
+<sha256>4bae06d884f44762f34ca099e0da7b2ac0a9a9cdc2be5b109074277487e8ee0b</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Corpus">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.[2-9]"/>
+<php_minimum>8.1</php_minimum>
+</update>
+<update>
+<name>Corpus</name>
+<description>Corpus, le template Joomla 6 a grille de douze colonnes, accessible RGAA 4.1, et son plugin systeme.</description>
+<element>pkg_corpus</element>
+<type>package</type>
+<client>site</client>
+<version>2.1.672</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_corpus-2.1.672.zip</downloadurl>
+</downloads>
+<changelogurl>https://magnytu2.github.io/updates/pkg_corpus-changelog.xml</changelogurl>
+<sha256>af81ff2861d579e3ff34aefa0b5e6b41e3936ae17441c37ba222abcb0fbbd608</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Corpus">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.1"/>
+<php_minimum>8.1</php_minimum>
+</update>
 </updates>

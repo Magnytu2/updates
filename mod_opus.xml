@@ -1,44 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-SERVEUR DE MISE A JOUR : Opus
-
+SERVEUR DE MISE A JOUR : Opus (module seul, ancien)
 Publie a https://magnytu2.github.io/updates/mod_opus.xml
 Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
-<updateservers> dans le manifeste de l'extension.
+<updateservers> dans le manifeste.
 
-1.5.1, le 25 septembre 2026 : premiere publication, premiere version stable.
-1.5.301, le 26 septembre 2026 : le crayon ouvre l'ecran complet d'Opus.
-1.5.302, le 26 septembre 2026 : JED Checker 2.4.4, 0 erreur, 0 alerte.
-1.5.303, le 1er octobre 2026 : visionneuse alignee sur celle de Corpus.
-1.5.305, le 2 octobre 2026 : correctif (Bloc simple, Bad Request).
-1.5.400, le 4 octobre 2026 : serie 1.5.4 (Tableau, Video, Carte, Agenda).
-1.5.514, le 9 octobre 2026 : agenda .ics, vues Jour et Annee, charte.
-1.5.521, le 13 octobre 2026 (jour de Joomla 6.2) : CORRECTIFS de la
-1.5.514, branche opus/_branche-correctifs. La serie 1.5.6xx (paquet
-pkg_opus, Opus dans l'article) n'est PAS publiee : decision de Cyrille.
-1.5.522, le 13 octobre 2026 : la meme, reconstruite par securite apres le
-passage a Joomla 6.2 (planche d'icones a jour avec Corpus).
+DEUX CHEMINS, JAMAIS TROIS (CLAUDE.md commun, paragraphe 10), depuis le
+16 octobre 2026 (Joomla 6.2.0 sorti le 13 octobre) :
+- premiere entree : la version courante, pour Joomla 6.2 et plus
+  (targetplatform 6\.[2-9]) ; le paquet refuse aussi de s'installer
+  sous 6.2.0 (second verrou, script du paquet) ;
+- seconde entree : la derniere version publiee pour Joomla 6.1, qui ne
+  recoit plus que des correctifs mineurs et de securite.
+Le jour de Joomla 6.3.0 : premiere entree 6\.[3-9], seconde 6\.2, et la
+6.1 disparait.
+Sert les sites qui ont encore le MODULE SEUL. En 6.2, l'entree mod_opus
+pointe sur le zip du PAQUET : Joomla installe le paquet par-dessus le module
+(memes modules, memes reglages), puis le script du paquet retire la fiche
+mod_opus.xml du site. En 6.1, le module seul 1.5.521 reste servi.
 -->
 <updates>
 <update>
 <name>Opus</name>
-<description>Opus : une mise en page par rangees et blocs, dans un module.</description>
+<description>Opus : une mise en page par rangees et blocs, dans un module, et posee dans un article depuis l'editeur.</description>
 <element>mod_opus</element>
 <type>module</type>
 <client>site</client>
-<version>1.5.522</version>
+<version>1.5.654</version>
 <downloads>
-<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.522.zip</downloadurl>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_opus-1.5.654.zip</downloadurl>
 </downloads>
-<sha256>6efbc17daad731738af056b3948a871f658f70934e7b9761780ef363037c3c39</sha256>
+<changelogurl>https://magnytu2.github.io/updates/mod_opus-changelog.xml</changelogurl>
+<sha256>6aaf095e3a7f683957e98c4c445687ccd093548d413ab39b3aa97316d88b86da</sha256>
 <tags>
 <tag>stable</tag>
 </tags>
 <maintainer>Joomanji</maintainer>
 <maintainerurl>https://joomanji.eu</maintainerurl>
 <infourl title="Opus">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.[2-9]"/>
+<php_minimum>8.3</php_minimum>
+</update>
+<update>
+<name>Opus</name>
+<description>Opus : une mise en page par rangees et blocs, dans un module.</description>
+<element>mod_opus</element>
+<type>module</type>
+<client>site</client>
+<version>1.5.521</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/mod_opus-1.5.521.zip</downloadurl>
+</downloads>
 <changelogurl>https://magnytu2.github.io/updates/mod_opus-changelog.xml</changelogurl>
-<targetplatform name="joomla" version="6\."/>
+<sha256>a34d30626793387bdeae8de01343be6140aee09606fb9fef4a07ff0b827fe868</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Opus">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.1"/>
 <php_minimum>8.3</php_minimum>
 </update>
 </updates>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+SERVEUR DE MISE A JOUR : Opus (paquet)
+Publie a https://magnytu2.github.io/updates/pkg_opus.xml
+Doit correspondre AU CARACTERE PRES a l'adresse inscrite sous
+<updateservers> dans le manifeste.
+
+DEUX CHEMINS, JAMAIS TROIS (CLAUDE.md commun, paragraphe 10), depuis le
+16 octobre 2026 (Joomla 6.2.0 sorti le 13 octobre) :
+- premiere entree : la version courante, pour Joomla 6.2 et plus
+  (targetplatform 6\.[2-9]) ; le paquet refuse aussi de s'installer
+  sous 6.2.0 (second verrou, script du paquet) ;
+- seconde entree : la derniere version publiee pour Joomla 6.1, qui ne
+  recoit plus que des correctifs mineurs et de securite.
+Le jour de Joomla 6.3.0 : premiere entree 6\.[3-9], seconde 6\.2, et la
+6.1 disparait.
+Opus devient un paquet en 1.5.654 (module + plg_editors-xtd_opus +
+plg_system_opus). Pas de seconde entree : aucun site n'avait le paquet en 6.1.
+-->
+<updates>
+<update>
+<name>Opus</name>
+<description>Opus : une mise en page par rangees et blocs, dans un module, et posee dans un article depuis l'editeur.</description>
+<element>pkg_opus</element>
+<type>package</type>
+<client>site</client>
+<version>1.5.654</version>
+<downloads>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_opus-1.5.654.zip</downloadurl>
+</downloads>
+<changelogurl>https://magnytu2.github.io/updates/pkg_opus-changelog.xml</changelogurl>
+<sha256>6aaf095e3a7f683957e98c4c445687ccd093548d413ab39b3aa97316d88b86da</sha256>
+<tags>
+<tag>stable</tag>
+</tags>
+<maintainer>Joomanji</maintainer>
+<maintainerurl>https://joomanji.eu</maintainerurl>
+<infourl title="Opus">https://joomanji.eu</infourl>
+<targetplatform name="joomla" version="6\.[2-9]"/>
+<php_minimum>8.3</php_minimum>
+</update>
+</updates>
