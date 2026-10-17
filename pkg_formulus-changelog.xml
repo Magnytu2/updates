@@ -13,6 +13,15 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_formulus</element>
 		<type>package</type>
+		<version>1.0.509</version>
+		<fix>
+			<item>⁠Compatibilité avec l’éditeur JCE : Formulus le prenait pour TinyMCE, l’éditeur de Joomla, et tentait d’y poser ses cartes. Cette confusion pouvait empêcher JCE de démarrer.</item>
+			<item>⁠Sous JCE, le bouton « Formulus : poser un formulaire » fonctionne ; les cartes de formulaire restent propres à TinyMCE.</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
 		<version>1.0.508</version>
 		<addition>
 			<item>⁠Écran d’un formulaire : bouton Options, et un bouton Prévisualiser.</item>

@@ -24,12 +24,12 @@ plg_system_opus). Pas de seconde entree : aucun site n'avait le paquet en 6.1.
 <element>pkg_opus</element>
 <type>package</type>
 <client>site</client>
-<version>1.5.654</version>
+<version>1.5.655</version>
 <downloads>
-<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_opus-1.5.654.zip</downloadurl>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_opus-1.5.655.zip</downloadurl>
 </downloads>
 <changelogurl>https://magnytu2.github.io/updates/pkg_opus-changelog.xml</changelogurl>
-<sha256>6aaf095e3a7f683957e98c4c445687ccd093548d413ab39b3aa97316d88b86da</sha256>
+<sha256>38673ea990782049592721d9a0b1626571b5e599694a9c52a82f0a3fe0a2ef68</sha256>
 <tags>
 <tag>stable</tag>
 </tags>

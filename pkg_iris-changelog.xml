@@ -4,6 +4,15 @@
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.067</version>
+		<fix>
+			<item>⁠Avec l’éditeur JCE, le bouton d’Iris empêchait JCE de démarrer : la zone de saisie restait vide, sans ses boutons. JCE s’affiche de nouveau normalement.</item>
+			<item>⁠Iris prenait JCE pour TinyMCE, l’éditeur de Joomla. Sous JCE, le bouton « Iris - Galeries » fonctionne ; les cartes de galerie restent propres à TinyMCE.</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.066</version>
 		<fix>
 			<item>⁠La fenêtre de confirmation reste fixe à l’écran et ne fait plus remonter l’article.</item>

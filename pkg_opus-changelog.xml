@@ -8,6 +8,15 @@ que lui livre l'analyseur XML.
 	<changelog>
 		<element>pkg_opus</element>
 		<type>package</type>
+		<version>1.5.655</version>
+		<fix>
+			<item>⁠Compatibilité avec l’éditeur JCE : Opus le prenait pour TinyMCE, l’éditeur de Joomla, et tentait d’y poser ses cartes. Cette confusion pouvait empêcher JCE de démarrer.</item>
+			<item>⁠Sous JCE, le bouton « Opus : poser un bloc » fonctionne ; les cartes de bloc restent propres à TinyMCE.</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
 		<version>1.5.654</version>
 		<addition>
 			<item>⁠Opus devient un paquet : le module et deux plugins, installés et activés tout seuls. Vos modules et leurs réglages restent tels quels.</item>
