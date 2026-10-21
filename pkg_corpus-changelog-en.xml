@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+RELEASE NOTES, English. Written at the same time as the French file, which
+stays the one Joomla reads. This one feeds the release log on the English
+pages of joomanji.eu (mod_joomanji_versions).
+
+Same rules as the French file: every <item> starts with U+2060, typographic
+apostrophes, never the entity, under 290 bytes.
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
+		<version>2.1.684</version>
+		<addition>
+			<item>⁠“Brand colour” setting: Corpus keeps your hue and adjusts its lightness itself, so it stays readable in light and in dark.</item>
+			<item>⁠“Secondary colour” setting, for rules and dividers.</item>
+			<item>⁠“Submenu alignment” setting: start, centre or end.</item>
+			<item>⁠Fonts: headings at weight 500, a bold italic file, variable fonts, and a second self-hosted font for headings.</item>
+		</addition>
+		<fix>
+			<item>⁠Page outline: the links now reach the headings when the article has an introduction.</item>
+			<item>⁠An outline column that also carries a module no longer overlaps anything: the whole column stays fixed on screen.</item>
+			<item>⁠A module title set as h1 now takes the size of an h1.</item>
+		</fix>
+		<change>
+			<item>⁠The small texts in the top row of the header are now styled (size, colour, links).</item>
+			<item>⁠Submenus no longer follow the alignment of the menu bar.</item>
+		</change>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. A site still on Joomla 6.1 keeps its current version and is offered nothing that could break it.</item>
+			<item>⁠Nothing to set again: the new settings are empty by default.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
+		<version>2.1.672</version>
+		<addition>
+			<item>⁠Twelve new icons for the file tools: upload, download, new folder, rename, move, copy, crop, compress, delete, gallery, insert, replace.</item>
+		</addition>
+		<fix>
+			<item>⁠Joomla 6.2: the intro image of an article came out without its figure when it had no caption. Blogs lost their layout (image left or right, lead article on two columns).</item>
+			<item>⁠Corpus always puts the image back inside its figure, in 6.1 as in 6.2. Needed before moving a site to Joomla 6.2.</item>
+		</fix>
+		<note>
+			<item>⁠Nothing to set again.</item>
+		</note>
+	</changelog>
+</changelogs>
