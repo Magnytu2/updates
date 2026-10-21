@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+RELEASE NOTES, English. Written at the same time as the French file, which
+stays the one Joomla reads. This one feeds the release log on the English
+pages of joomanji.eu (mod_joomanji_versions).
+
+Same rules as the French file: every item starts with U+2060, typographic
+apostrophes, never the entity, under 290 bytes.
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
+		<version>1.0.509</version>
+		<fix>
+			<item>⁠Works with the JCE editor: Formulus took it for TinyMCE, the Joomla editor, and tried to drop its cards into it. That confusion could stop JCE from starting.</item>
+			<item>⁠Under JCE the “Formulus: place a form” button works; form cards stay a TinyMCE feature.</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
+		<version>1.0.508</version>
+		<addition>
+			<item>⁠Form screen: an Options button, and a Preview button.</item>
+			<item>⁠A click inside “What will come out” takes you to that field line.</item>
+		</addition>
+		<change>
+			<item>⁠Folded sections stay folded from one opening to the next.</item>
+			<item>⁠The width handle of the “Formulus: place a form” panel is in the site language.</item>
+		</change>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. A site still on Joomla 6.1 keeps its current version and is offered nothing that could break it.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
+		<version>1.0.505</version>
+		<addition>
+			<item>⁠A “Formulus: place a form” button in the editor: start from a template or from an existing form and place it in the article.</item>
+			<item>⁠Each placed form becomes a card in the editor: move it, edit it, preview it or remove it.</item>
+			<item>⁠In the module list, a note says which article each form is placed in.</item>
+		</addition>
+		<change>
+			<item>⁠The preview shows the form with the site template.</item>
+			<item>⁠“Edit” opens the form on the Fields tab.</item>
+		</change>
+		<note>
+			<item>⁠Two plugins join the package and enable themselves. Ready for Joomla 6.2. Nothing to set again.</item>
+		</note>
+	</changelog>
+</changelogs>

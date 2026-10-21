@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+RELEASE NOTES, English. Written at the same time as the French file, which
+stays the one Joomla reads. This one feeds the release log on the English
+pages of joomanji.eu (mod_joomanji_versions).
+
+Same rules as the French file: every item starts with U+2060, typographic
+apostrophes, never the entity, under 290 bytes.
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
+		<version>3.0.067</version>
+		<fix>
+			<item>⁠With the JCE editor, the Iris button stopped JCE from starting: the writing area stayed empty, without its buttons. JCE shows up normally again.</item>
+			<item>⁠Iris took JCE for TinyMCE, the Joomla editor. Under JCE the “Iris - Galleries” button works; gallery cards stay a TinyMCE feature.</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
+		<version>3.0.066</version>
+		<fix>
+			<item>⁠The confirmation window stays fixed on screen and no longer scrolls the article back up.</item>
+		</fix>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. A site still on Joomla 6.1 keeps its current version and is offered nothing that could break it.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
+		<version>3.0.064</version>
+		<fix>
+			<item>⁠“Update in the article” was shown with one slash too many.</item>
+			<item>⁠A gallery card title is no longer underlined on hover (there were two lines).</item>
+		</fix>
+		<addition>
+			<item>⁠Galleries inside the article: the “Iris - Galleries” button opens a panel with three tabs, Layout, Galleries and Reuse.</item>
+			<item>⁠The 15 layouts of the Iris Galleries module can be placed straight into the article.</item>
+			<item>⁠Each placed gallery becomes a card in the editor: move it, edit it, preview it or remove it.</item>
+		</addition>
+		<note>
+			<item>⁠Ready for Joomla 6.2. Nothing to set again.</item>
+		</note>
+	</changelog>
+</changelogs>

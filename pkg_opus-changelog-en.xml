@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+RELEASE NOTES, English. Written at the same time as the French file, which
+stays the one Joomla reads. This one feeds the release log on the English
+pages of joomanji.eu (mod_joomanji_versions).
+
+Same rules as the French file: every item starts with U+2060, typographic
+apostrophes, never the entity, under 290 bytes.
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
+		<version>1.5.655</version>
+		<fix>
+			<item>⁠Works with the JCE editor: Opus took it for TinyMCE, the Joomla editor, and tried to drop its cards into it. That confusion could stop JCE from starting.</item>
+			<item>⁠Under JCE the “Opus: place a block” button works; block cards stay a TinyMCE feature.</item>
+		</fix>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
+		<version>1.5.654</version>
+		<addition>
+			<item>⁠Opus becomes a package: the module and two plugins, installed and enabled on their own. Your modules and their settings stay as they are.</item>
+			<item>⁠New: place an Opus block inside an article. The editor button “Opus: place a block” opens a panel: Layout, Element, Reuse.</item>
+			<item>⁠In the article each block becomes a card: drag it, add a block above or below, edit it in a large window, preview it, remove it.</item>
+			<item>⁠The module list says which article each block is placed in.</item>
+			<item>⁠Map: service area by travel time or by kilometres. Cards: number of columns of your choice (automatic, 2, 3 or 4).</item>
+			<item>⁠Agenda: more readable dates, yearly events, looser date entry, declared to search engines.</item>
+			<item>⁠Texts and tables: a small bar with Bold, Italic, Link, List; paragraphs kept; simple formatting inside cells.</item>
+		</addition>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. A site still on Joomla 6.1 keeps its current version and is offered nothing that could break it.</item>
+		</note>
+	</changelog>
+</changelogs>

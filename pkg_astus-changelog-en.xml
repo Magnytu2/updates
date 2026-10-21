@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+RELEASE NOTES, English. Written at the same time as the French file, which
+stays the one Joomla reads. This one feeds the release log on the English
+pages of joomanji.eu (mod_joomanji_versions).
+
+Same rules as the French file: every item starts with U+2060, typographic
+apostrophes, never the entity, under 290 bytes.
+-->
+<changelogs>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
+		<version>2.1.186</version>
+		<addition>
+			<item>⁠Astus is now linked to Iris: it spots images with no description and writes their alternative text.</item>
+		</addition>
+		<change>
+			<item>⁠Astus no longer changes the address of an article, a category or a menu item unless you ask for it; it then sets a 301 redirect from the old address.</item>
+			<item>⁠It refuses when child pages would change address, and never rewrites the title of published content without your agreement.</item>
+			<item>⁠The link check now starts from the module button, no longer from the chat.</item>
+		</change>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. A site still on Joomla 6.1 keeps its current version and is offered nothing that could break it.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
+		<version>2.1.183</version>
+		<addition>
+			<item>⁠The visitor assistant has a presentation page: its first tab introduces Astus, with the manual, support and your downloads.</item>
+		</addition>
+		<change>
+			<item>⁠The visitor assistant settings move to a tab of their own, “Settings”, right after the presentation.</item>
+		</change>
+		<note>
+			<item>⁠Nothing to set again.</item>
+		</note>
+	</changelog>
+</changelogs>

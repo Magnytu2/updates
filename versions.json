@@ -46,7 +46,10 @@
           "version": "2.1.180",
           "date": "2026-10-02"
         }
-      ]
+      ],
+      "changelogs": {
+        "en-GB": "pkg_astus-changelog-en.xml"
+      }
     },
     {
       "cle": "opus",
@@ -64,7 +67,10 @@
           "version": "1.5.654",
           "date": "2026-10-16"
         }
-      ]
+      ],
+      "changelogs": {
+        "en-GB": "pkg_opus-changelog-en.xml"
+      }
     },
     {
       "cle": "formulus",
@@ -86,7 +92,10 @@
           "version": "1.0.505",
           "date": "2026-10-13"
         }
-      ]
+      ],
+      "changelogs": {
+        "en-GB": "pkg_formulus-changelog-en.xml"
+      }
     },
     {
       "cle": "iris",
@@ -107,6 +116,26 @@
         {
           "version": "3.0.064",
           "date": "2026-10-13"
+        }
+      ],
+      "changelogs": {
+        "en-GB": "pkg_iris-changelog-en.xml"
+      }
+    },
+    {
+      "cle": "markus",
+      "nom": "Markus",
+      "fichier": "plg_editors_markus-1.0.089.zip",
+      "version": "1.0.089",
+      "date": "2026-10-16",
+      "changelog": "plg_editors_markus-changelog.xml",
+      "changelogs": {
+        "en-GB": "plg_editors_markus-changelog-en.xml"
+      },
+      "historique": [
+        {
+          "version": "1.0.089",
+          "date": "2026-10-16"
         }
       ]
     },
