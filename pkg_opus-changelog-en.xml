@@ -11,6 +11,18 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_opus</element>
 		<type>package</type>
+		<version>1.5.931</version>
+		<fix>
+			<item>⁠The update records of your Joomanji products are checked on install: a product that had lost its own (Iris, for example, which no longer received updates) gets it back.</item>
+			<item>⁠Opus can no longer take over another product’s update record.</item>
+		</fix>
+		<note>
+			<item>⁠Urgent fix, no new feature. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
 		<version>1.5.930</version>
 		<addition>
 			<item>⁠New Weather element: the forecast for the place of your choice, from Open-Meteo, Météo-France or MET Norway.</item>

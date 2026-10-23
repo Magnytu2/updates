@@ -54,11 +54,15 @@
     {
       "cle": "opus",
       "nom": "Opus",
-      "fichier": "pkg_opus-1.5.930.zip",
-      "version": "1.5.930",
+      "fichier": "pkg_opus-1.5.931.zip",
+      "version": "1.5.931",
       "date": "2026-10-23",
       "changelog": "pkg_opus-changelog.xml",
       "historique": [
+        {
+          "version": "1.5.931",
+          "date": "2026-10-23"
+        },
         {
           "version": "1.5.930",
           "date": "2026-10-23"
@@ -66,10 +70,6 @@
         {
           "version": "1.5.655",
           "date": "2026-10-17"
-        },
-        {
-          "version": "1.5.654",
-          "date": "2026-10-16"
         }
       ],
       "changelogs": {

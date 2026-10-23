@@ -8,6 +8,18 @@ que lui livre l'analyseur XML.
 	<changelog>
 		<element>pkg_opus</element>
 		<type>package</type>
+		<version>1.5.931</version>
+		<fix>
+			<item>⁠Les fiches de mise à jour de vos produits Joomanji sont vérifiées à l’installation : un produit qui n’en avait plus (Iris, par exemple, qui ne recevait plus ses mises à jour) retrouve la sienne.</item>
+			<item>⁠Opus ne peut plus prendre la fiche de mise à jour d’un autre produit.</item>
+		</fix>
+		<note>
+			<item>⁠Correctif urgent, sans nouvelle fonction. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
 		<version>1.5.930</version>
 		<addition>
 			<item>⁠Nouvel élément Météo : les prévisions du lieu de votre choix, depuis Open-Meteo, Météo-France ou MET Norway.</item>
