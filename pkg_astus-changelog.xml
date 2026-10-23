@@ -13,6 +13,20 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_astus</element>
 		<type>package</type>
+		<version>2.1.204</version>
+		<addition>
+			<item>⁠Audit : nouvelle ligne llms.txt. Le bouton Corriger crée le fichier, puis Astus le tient à jour comme le plan du site.</item>
+			<item>⁠Audit : nouvelle ligne « Robots des IA », lue dans le robots.txt. Elle passe en orange si un robot de recherche IA est bloqué ; Astus ne modifie rien.</item>
+			<item>⁠Site multilingue : chaque page déclare sa langue à Google (hreflang), sans réglage.</item>
+			<item>⁠Assistant des visiteurs : un lien de vos pages peut l’ouvrir (attribut data-astus-ouvrir).</item>
+		</addition>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
 		<version>2.1.186</version>
 		<change>
 			<item>⁠Astus ne change plus l’adresse d’un article, d’une catégorie ou d’un lien de menu, sauf demande explicite ; il pose alors une redirection 301 depuis l’ancienne adresse.</item>

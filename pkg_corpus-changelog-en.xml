@@ -11,6 +11,23 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_corpus</element>
 		<type>package</type>
+		<version>2.1.704</version>
+		<change>
+			<item>⁠Accordions now open one panel at a time: opening a question closes the previous one.</item>
+			<item>⁠The mega menu no longer overflows the page: its columns tighten instead.</item>
+		</change>
+		<fix>
+			<item>⁠A hidden article title stays the main heading of the page, invisible but read by screen readers.</item>
+			<item>⁠A page made only of bands now has its main area, and “Skip to main content” leads there.</item>
+			<item>⁠Definition lists that carry a class are no longer distorted.</item>
+		</fix>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
 		<version>2.1.684</version>
 		<addition>
 			<item>⁠“Brand colour” setting: Corpus keeps your hue and adjusts its lightness itself, so it stays readable in light and in dark.</item>

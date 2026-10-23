@@ -11,6 +11,25 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.210</version>
+		<addition>
+			<item>⁠“Joomanji updates” box on the Iris home page: all your pending Joomanji updates, and an “Update all” button that goes through Joomla.</item>
+			<item>⁠Media library: right-click menu (or the Menu key, Shift+F10), F2 to rename, Delete to delete.</item>
+			<item>⁠Galleries: “New folder”, the file name under each card, 3:4 and 2:3 formats, “Save as copy”.</item>
+			<item>⁠“A folder” gallery: the “-” of a row asks whether to hide the image or delete the file from the folder.</item>
+		</addition>
+		<fix>
+			<item>⁠Delete and move now work with hosts that refused these requests (error 403).</item>
+			<item>⁠Large galleries save with no server limit, and their previews load on demand.</item>
+			<item>⁠Documents: PDF thumbnails in WebP, Word label in blue, buttons under the text in Tiles.</item>
+		</fix>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.067</version>
 		<fix>
 			<item>⁠With the JCE editor, the Iris button stopped JCE from starting: the writing area stayed empty, without its buttons. JCE shows up normally again.</item>

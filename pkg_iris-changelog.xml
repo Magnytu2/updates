@@ -4,6 +4,25 @@
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.210</version>
+		<addition>
+			<item>⁠Encadré « Mises à jour Joomanji » sur l’accueil d’Iris : toutes vos mises à jour Joomanji en attente, et un bouton « Tout mettre à jour » qui passe par Joomla.</item>
+			<item>⁠Médiathèque : menu du clic droit (ou touche Menu, Maj+F10), F2 pour renommer, Suppr pour supprimer.</item>
+			<item>⁠Galeries : « Nouveau dossier », le nom du fichier sous chaque carte, formats 3:4 et 2:3, « Enregistrer comme copie ».</item>
+			<item>⁠Galerie « Un dossier » : le « - » d’une ligne demande Masquer l’image ou Supprimer le fichier du dossier.</item>
+		</addition>
+		<fix>
+			<item>⁠Supprimer et déplacer marchent chez les hébergeurs qui refusaient ces demandes (erreur 403).</item>
+			<item>⁠Les grandes galeries s’enregistrent sans limite du serveur, et leurs aperçus se chargent à la demande.</item>
+			<item>⁠Documents : miniatures des PDF en WebP, étiquette Word en bleu, boutons sous le texte en Tuiles.</item>
+		</fix>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.067</version>
 		<fix>
 			<item>⁠Avec l’éditeur JCE, le bouton d’Iris empêchait JCE de démarrer : la zone de saisie restait vide, sans ses boutons. JCE s’affiche de nouveau normalement.</item>

@@ -13,6 +13,21 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_formulus</element>
 		<type>package</type>
+		<version>1.0.602</version>
+		<addition>
+			<item>⁠Onglet « Textes » (ancien « Formulaire ») : un « Texte de fin » s’affiche sous le formulaire et disparaît après un envoi réussi.</item>
+		</addition>
+		<change>
+			<item>⁠Une liste déroulante à choix unique commence par « Choisissez » ; obligatoire, elle refuse l’envoi tant que rien n’est choisi.</item>
+			<item>⁠Les champs sortent dans l’ordre de la liste, même rangés dans un autre groupe.</item>
+		</change>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
 		<version>1.0.509</version>
 		<fix>
 			<item>⁠Compatibilité avec l’éditeur JCE : Formulus le prenait pour TinyMCE, l’éditeur de Joomla, et tentait d’y poser ses cartes. Cette confusion pouvait empêcher JCE de démarrer.</item>

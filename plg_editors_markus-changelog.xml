@@ -8,6 +8,23 @@ que lui livre l'analyseur XML.
 	<changelog>
 		<element>markus</element>
 		<type>plugin</type>
+		<version>1.0.100</version>
+		<addition>
+			<item>⁠Rechercher et remplacer (loupe, Ctrl+F, Ctrl+H).</item>
+			<item>⁠Sauts de ligne visibles (↵ violet) : couper en paragraphes (Ctrl+Maj+Entrée), joindre au paragraphe précédent (Maj+Retour arrière).</item>
+			<item>⁠« Coller » dans le menu du clic droit.</item>
+		</addition>
+		<change>
+			<item>⁠La liste des blocs s’ouvre au milieu de la fenêtre.</item>
+			<item>⁠La roue d’un bloc compte ses réglages modifiés, marqués en violet dans le panneau.</item>
+		</change>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>markus</element>
+		<type>plugin</type>
 		<version>1.0.089</version>
 		<addition>
 			<item>⁠Première version publique de Markus Editor : un éditeur par blocs qui remplace TinyMCE (paragraphes, titres, listes, citations, images, tableaux, colonnes, modules...).</item>

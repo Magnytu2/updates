@@ -13,6 +13,23 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_corpus</element>
 		<type>package</type>
+		<version>2.1.704</version>
+		<change>
+			<item>⁠L’accordéon n’ouvre plus qu’un volet à la fois : ouvrir une question ferme celle d’avant.</item>
+			<item>⁠Le méga-menu ne déborde plus de la page : ses colonnes se resserrent.</item>
+		</change>
+		<fix>
+			<item>⁠Un titre d’article masqué reste le titre principal de la page, invisible mais lu par les lecteurs d’écran.</item>
+			<item>⁠Une page faite seulement de bandes a sa zone principale : « Aller au contenu principal » y mène.</item>
+			<item>⁠Les listes de définitions qui portent une classe ne sont plus déformées.</item>
+		</fix>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
 		<version>2.1.684</version>
 		<addition>
 			<item>⁠Réglage « Couleur de marque » : Corpus garde votre teinte et ajuste lui-même sa clarté pour qu’elle reste lisible, en clair comme en sombre.</item>

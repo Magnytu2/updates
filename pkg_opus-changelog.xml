@@ -8,6 +8,29 @@ que lui livre l'analyseur XML.
 	<changelog>
 		<element>pkg_opus</element>
 		<type>package</type>
+		<version>1.5.930</version>
+		<addition>
+			<item>⁠Nouvel élément Météo : les prévisions du lieu de votre choix, depuis Open-Meteo, Météo-France ou MET Norway.</item>
+			<item>⁠Carte : zone d’intervention en kilomètres par la route ou à vol d’oiseau, en plus du temps de route ; textes des trois boutons réglables.</item>
+			<item>⁠Agenda : textes des trois boutons réglables, titre masquable, dates des articles qui reviennent chaque année.</item>
+			<item>⁠Contact : réglage « Intitulés », et le courriel est vérifié avant l’enregistrement.</item>
+		</addition>
+		<change>
+			<item>⁠Un module très rempli s’ouvre beaucoup plus vite : chaque élément n’apporte que les réglages de son type, et le catalogue des classes se charge à la demande.</item>
+			<item>⁠La poignée « Déplacer » répond aux flèches haut et bas du clavier.</item>
+			<item>⁠Un champ mal rempli à l’enregistrement : une fenêtre liste les champs à corriger et mène à chacun.</item>
+		</change>
+		<fix>
+			<item>⁠Les titres centrés gardent leur trait centré sous le texte.</item>
+			<item>⁠La recherche du site trouve le texte des blocs posés dans un article (réindexer une fois).</item>
+		</fix>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
 		<version>1.5.655</version>
 		<fix>
 			<item>⁠Compatibilité avec l’éditeur JCE : Opus le prenait pour TinyMCE, l’éditeur de Joomla, et tentait d’y poser ses cartes. Cette confusion pouvait empêcher JCE de démarrer.</item>

@@ -11,6 +11,23 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>markus</element>
 		<type>plugin</type>
+		<version>1.0.100</version>
+		<addition>
+			<item>⁠Find and replace (magnifier, Ctrl+F, Ctrl+H).</item>
+			<item>⁠Visible line breaks (purple ↵): split into paragraphs (Ctrl+Shift+Enter), join with the previous paragraph (Shift+Backspace).</item>
+			<item>⁠“Paste” in the right-click menu.</item>
+		</addition>
+		<change>
+			<item>⁠The block list opens in the middle of the window.</item>
+			<item>⁠A block’s gear counts its changed settings, marked in purple in the panel.</item>
+		</change>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>markus</element>
+		<type>plugin</type>
 		<version>1.0.089</version>
 		<addition>
 			<item>⁠First public version of Markus Editor: a block editor replacing TinyMCE (paragraphs, headings, lists, quotes, images, tables, columns, modules and more).</item>

@@ -11,6 +11,29 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_opus</element>
 		<type>package</type>
+		<version>1.5.930</version>
+		<addition>
+			<item>⁠New Weather element: the forecast for the place of your choice, from Open-Meteo, Météo-France or MET Norway.</item>
+			<item>⁠Map: service area in kilometres by road or as the crow flies, as well as driving time; the text of its three buttons can be set.</item>
+			<item>⁠Agenda: the text of its three buttons can be set, the title can be hidden, and article dates can repeat every year.</item>
+			<item>⁠Contact: “Labels” setting, and the email address is checked before saving.</item>
+		</addition>
+		<change>
+			<item>⁠A large module opens much faster: each element only brings the settings of its own type, and the class catalogue loads on demand.</item>
+			<item>⁠The “Move” handle answers the up and down arrow keys.</item>
+			<item>⁠A field filled in wrongly when saving: a window lists the fields to correct and leads to each one.</item>
+		</change>
+		<fix>
+			<item>⁠Centred headings keep their rule centred under the text.</item>
+			<item>⁠The site search finds the text of blocks placed in an article (re-index once).</item>
+		</fix>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
 		<version>1.5.655</version>
 		<fix>
 			<item>⁠Works with the JCE editor: Opus took it for TinyMCE, the Joomla editor, and tried to drop its cards into it. That confusion could stop JCE from starting.</item>

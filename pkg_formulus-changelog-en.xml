@@ -11,6 +11,21 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_formulus</element>
 		<type>package</type>
+		<version>1.0.602</version>
+		<addition>
+			<item>⁠“Texts” tab (formerly “Form”): a “Closing text” shows under the form and disappears after a successful submission.</item>
+		</addition>
+		<change>
+			<item>⁠A single-choice drop-down list starts with “Choose”; when required, it refuses to submit until something is chosen.</item>
+			<item>⁠Fields come out in the order of the list, even when placed in another group.</item>
+		</change>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
 		<version>1.0.509</version>
 		<fix>
 			<item>⁠Works with the JCE editor: Formulus took it for TinyMCE, the Joomla editor, and tried to drop its cards into it. That confusion could stop JCE from starting.</item>

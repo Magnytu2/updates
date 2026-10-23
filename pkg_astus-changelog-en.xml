@@ -11,6 +11,20 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_astus</element>
 		<type>package</type>
+		<version>2.1.204</version>
+		<addition>
+			<item>⁠Audit: new llms.txt line. The Fix button creates the file, then Astus keeps it up to date like the sitemap.</item>
+			<item>⁠Audit: new “AI robots” line, read from robots.txt. It turns orange if an AI search robot is blocked; Astus changes nothing.</item>
+			<item>⁠Multilingual site: each page declares its language to Google (hreflang), with no setting.</item>
+			<item>⁠Visitor assistant: a link in your pages can open it (data-astus-ouvrir attribute).</item>
+		</addition>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
 		<version>2.1.186</version>
 		<addition>
 			<item>⁠Astus is now linked to Iris: it spots images with no description and writes their alternative text.</item>
