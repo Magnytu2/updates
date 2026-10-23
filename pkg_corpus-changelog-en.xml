@@ -11,6 +11,18 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_corpus</element>
 		<type>package</type>
+		<version>2.1.705</version>
+		<addition>
+			<item>⁠“Enlarge images on click” setting (next to the Print, Email and Share buttons): images placed in a figure in an article open large, with their caption, and you can move from one to the next.</item>
+			<item>⁠Images that are already a link, and those of Opus and Iris modules, do not change.</item>
+		</addition>
+		<note>
+			<item>⁠The setting is off by default: nothing changes on your site until you turn it on.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
 		<version>2.1.704</version>
 		<change>
 			<item>⁠Accordions now open one panel at a time: opening a question closes the previous one.</item>

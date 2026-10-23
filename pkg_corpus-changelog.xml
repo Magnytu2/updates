@@ -13,6 +13,18 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_corpus</element>
 		<type>package</type>
+		<version>2.1.705</version>
+		<addition>
+			<item>⁠Réglage « Agrandir les images au clic » (avec les boutons Imprimer, Courriel et Partager) : les images d’un article posées dans une figure s’ouvrent en grand, avec leur légende, et on passe de l’une à l’autre.</item>
+			<item>⁠Les images qui sont déjà un lien, et celles des modules Opus et Iris, ne changent pas.</item>
+		</addition>
+		<note>
+			<item>⁠Réglage sur Non par défaut : rien ne change sur votre site tant que vous ne l’activez pas.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
 		<version>2.1.704</version>
 		<change>
 			<item>⁠L’accordéon n’ouvre plus qu’un volet à la fois : ouvrir une question ferme celle d’avant.</item>

@@ -4,11 +4,15 @@
     {
       "cle": "corpus",
       "nom": "Corpus",
-      "fichier": "pkg_corpus-2.1.704.zip",
-      "version": "2.1.704",
+      "fichier": "pkg_corpus-2.1.705.zip",
+      "version": "2.1.705",
       "date": "2026-10-23",
       "changelog": "pkg_corpus-changelog.xml",
       "historique": [
+        {
+          "version": "2.1.705",
+          "date": "2026-10-23"
+        },
         {
           "version": "2.1.704",
           "date": "2026-10-23"
@@ -16,10 +20,6 @@
         {
           "version": "2.1.684",
           "date": "2026-10-16"
-        },
-        {
-          "version": "2.1.672",
-          "date": "2026-10-09"
         }
       ],
       "changelogs": {
