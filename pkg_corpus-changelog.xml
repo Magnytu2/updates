@@ -13,6 +13,30 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_corpus</element>
 		<type>package</type>
+		<version>2.1.818</version>
+		<addition>
+			<item>⁠Annuaire de contacts : les fiches d’une catégorie s’affichent en vignettes, avec leur image et leurs numéros cliquables ; les sous-catégories passent avant les fiches.</item>
+			<item>⁠Panneau d’annonce aux couleurs d’une alerte : classes popup--alerte, popup--erreur, popup--info, popup--succes et popup--grand. Le plus grave des encadrés qu’il contient donne sa couleur.</item>
+			<item>⁠Onglet Détails du style : l’encadré « Mises à jour Joomanji » liste les mises à jour en attente de vos produits Joomanji, avec un bouton « Tout mettre à jour ». C’est Joomla qui fait la mise à jour.</item>
+		</addition>
+		<change>
+			<item>⁠Page de maintenance : les messages (identifiant faux, etc.) s’affichent dans une fenêtre.</item>
+			<item>⁠Les tableaux écrits dans l’éditeur prennent le dessin des tableaux de Corpus.</item>
+			<item>⁠Édition sur le site : le crayon des modules n’apparaît qu’au survol ou au clavier, et ne couvre plus le texte.</item>
+			<item>⁠Une bande dont tous les modules sont réservés à l’ordinateur, ou au téléphone, se masque avec eux.</item>
+		</change>
+		<fix>
+			<item>⁠Le schéma de l’onglet Layout n’est plus barré sur un style jamais enregistré.</item>
+			<item>⁠Page contact : le titre « Liens » ne sort plus quand aucun lien n’est rempli.</item>
+			<item>⁠Résultats de recherche : plus de double trait ni de séparateurs en trop.</item>
+		</fix>
+		<note>
+			<item>⁠Demande Joomla 6.2 ou plus récent. Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
 		<version>2.1.705</version>
 		<addition>
 			<item>⁠Réglage « Agrandir les images au clic » (avec les boutons Imprimer, Courriel et Partager) : les images d’un article posées dans une figure s’ouvrent en grand, avec leur légende, et on passe de l’une à l’autre.</item>

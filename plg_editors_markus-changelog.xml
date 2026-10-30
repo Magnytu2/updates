@@ -8,6 +8,21 @@ que lui livre l'analyseur XML.
 	<changelog>
 		<element>markus</element>
 		<type>plugin</type>
+		<version>1.0.201</version>
+		<addition>
+			<item>⁠Une page d’accueil dans l’onglet « Plugin » des réglages : version, présentation, liens vers le manuel, l’assistance et le téléchargement.</item>
+			<item>⁠Sur cette page, l’encadré « Mises à jour Joomanji » liste les mises à jour en attente de vos produits Joomanji, avec un bouton « Tout mettre à jour ». C’est Joomla qui fait la mise à jour.</item>
+		</addition>
+		<change>
+			<item>⁠Les paramètres passent dans l’onglet « Paramétrages ». Le bouton Paramètres de l’éditeur y mène directement.</item>
+		</change>
+		<note>
+			<item>⁠Vos paramètres sont conservés.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>markus</element>
+		<type>plugin</type>
 		<version>1.0.100</version>
 		<addition>
 			<item>⁠Rechercher et remplacer (loupe, Ctrl+F, Ctrl+H).</item>

@@ -8,6 +8,23 @@ que lui livre l'analyseur XML.
 	<changelog>
 		<element>pkg_opus</element>
 		<type>package</type>
+		<version>1.6.006</version>
+		<addition>
+			<item>⁠Sur le site, un crayon « Modifier ce bloc » sur chaque module Opus appelé dans un article ouvre la grande fenêtre d’Opus.</item>
+			<item>⁠Onglet de présentation : l’encadré « Mises à jour Joomanji » liste les mises à jour en attente de vos produits Joomanji, avec un bouton « Tout mettre à jour ». C’est Joomla qui fait la mise à jour.</item>
+		</addition>
+		<fix>
+			<item>⁠Agenda : « Aussi le » écrit la date de la même façon au chargement et au clic, avec l’année.</item>
+			<item>⁠Après une mise à jour, le navigateur ne garde plus les anciens fichiers d’Opus : les nouveautés apparaissent tout de suite.</item>
+			<item>⁠Deux modules Opus appelés à la suite dans un article ont l’écart normal entre eux.</item>
+		</fix>
+		<note>
+			<item>⁠Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
 		<version>1.5.931</version>
 		<fix>
 			<item>⁠Les fiches de mise à jour de vos produits Joomanji sont vérifiées à l’installation : un produit qui n’en avait plus (Iris, par exemple, qui ne recevait plus ses mises à jour) retrouve la sienne.</item>

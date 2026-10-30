@@ -13,6 +13,17 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_astus</element>
 		<type>package</type>
+		<version>2.1.300</version>
+		<addition>
+			<item>⁠Première page du module Assistant : l’encadré « Mises à jour Joomanji » liste les mises à jour en attente de vos produits Joomanji, avec un bouton « Tout mettre à jour ». C’est Joomla qui fait la mise à jour.</item>
+		</addition>
+		<note>
+			<item>⁠Aucun réglage à refaire.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
 		<version>2.1.204</version>
 		<addition>
 			<item>⁠Audit : nouvelle ligne llms.txt. Le bouton Corriger crée le fichier, puis Astus le tient à jour comme le plan du site.</item>

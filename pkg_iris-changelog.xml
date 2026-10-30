@@ -4,6 +4,18 @@
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.302</version>
+		<addition>
+			<item>⁠Documents : présentation « Affiches (aperçu en grand) », pour une galerie, le module ou un document seul. La première page du PDF s’affiche en grand, en portrait, et s’ouvre dans la visionneuse.</item>
+			<item>⁠Documents : l’empreinte SHA-256 de chaque fichier, sur réglage. Chacun peut vérifier que le document téléchargé est bien celui publié (registre des actes, par exemple).</item>
+		</addition>
+		<note>
+			<item>⁠L’empreinte est éteinte par défaut, et les affiches ne remplacent aucune présentation : rien ne change sur votre site.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.210</version>
 		<addition>
 			<item>⁠Encadré « Mises à jour Joomanji » sur l’accueil d’Iris : toutes vos mises à jour Joomanji en attente, et un bouton « Tout mettre à jour » qui passe par Joomla.</item>

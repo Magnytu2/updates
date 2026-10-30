@@ -13,6 +13,17 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_tikus</element>
 		<type>package</type>
+		<version>2.9.100</version>
+		<addition>
+			<item>⁠Page de présentation : l’encadré « Mises à jour Joomanji » liste les mises à jour en attente de vos produits Joomanji, avec un bouton « Tout mettre à jour ». C’est Joomla qui fait la mise à jour.</item>
+		</addition>
+		<note>
+			<item>⁠Aucun réglage à refaire : vos demandes et leurs échanges restent tels quels.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_tikus</element>
+		<type>package</type>
 		<version>2.9.012</version>
 		<note>
 			<item>⁠Demande Joomla 6.2 ou plus récent. Un site resté en Joomla 6.1 garde sa version actuelle et ne se voit rien proposer qui pourrait le casser.</item>

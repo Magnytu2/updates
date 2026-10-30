@@ -11,6 +11,18 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_iris</element>
 		<type>package</type>
+		<version>3.0.302</version>
+		<addition>
+			<item>⁠Documents: « Posters (large preview) » layout, for a gallery, the module or a single document. The first page of the PDF shows large, in portrait, and opens in the viewer.</item>
+			<item>⁠Documents: the SHA-256 fingerprint of each file, as an option. Anyone can check that the downloaded document is the one published (council records, for example).</item>
+		</addition>
+		<note>
+			<item>⁠The fingerprint is off by default, and posters replace no existing layout: nothing changes on your site.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_iris</element>
+		<type>package</type>
 		<version>3.0.210</version>
 		<addition>
 			<item>⁠“Joomanji updates” box on the Iris home page: all your pending Joomanji updates, and an “Update all” button that goes through Joomla.</item>

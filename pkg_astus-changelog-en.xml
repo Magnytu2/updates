@@ -11,6 +11,17 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_astus</element>
 		<type>package</type>
+		<version>2.1.300</version>
+		<addition>
+			<item>⁠First page of the Assistant module: the « Joomanji updates » box lists the pending updates of your Joomanji products, with an « Update all » button. Joomla does the update.</item>
+		</addition>
+		<note>
+			<item>⁠Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_astus</element>
+		<type>package</type>
 		<version>2.1.204</version>
 		<addition>
 			<item>⁠Audit: new llms.txt line. The Fix button creates the file, then Astus keeps it up to date like the sitemap.</item>

@@ -13,6 +13,26 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_formulus</element>
 		<type>package</type>
+		<version>1.0.733</version>
+		<addition>
+			<item>⁠La lettre d’info : à chaque article publié dans une catégorie surveillée, les abonnés de ce thème reçoivent un courriel avec le titre, l’introduction, l’image et un bouton pour le lire.</item>
+			<item>⁠Inscription par un formulaire Formulus, champ « Thèmes de la lettre d’info », double confirmation, désabonnement en un clic dans chaque courriel.</item>
+			<item>⁠Écrans « Lettre d’info : abonnés » et « Lettre d’info : envois » : suivi de chaque article, essai à votre seule adresse, relance des échecs, export.</item>
+			<item>⁠« Inviter un groupe » : chaque compte d’un groupe d’utilisateurs reçoit son invitation et s’abonne d’un clic, avec son adresse.</item>
+			<item>⁠Modifier un formulaire depuis le site.</item>
+			<item>⁠Page d’accueil : l’encadré « Mises à jour Joomanji » liste les mises à jour en attente de vos produits Joomanji, avec un bouton « Tout mettre à jour ». C’est Joomla qui fait la mise à jour.</item>
+		</addition>
+		<change>
+			<item>⁠Modèle « Enquête » : un consentement remplace la case des conditions générales de vente.</item>
+			<item>⁠Des erreurs de champ plus claires, et un message quand un champ obligatoire est laissé vide.</item>
+		</change>
+		<note>
+			<item>⁠La lettre d’info est éteinte par défaut : allumez-la dans les Options de Formulus, onglet « Lettre d’info ». Elle s’appuie sur le planificateur de tâches de Joomla.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
 		<version>1.0.602</version>
 		<addition>
 			<item>⁠Onglet « Textes » (ancien « Formulaire ») : un « Texte de fin » s’affiche sous le formulaire et disparaît après un envoi réussi.</item>

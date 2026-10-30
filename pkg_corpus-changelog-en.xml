@@ -11,6 +11,30 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_corpus</element>
 		<type>package</type>
+		<version>2.1.818</version>
+		<addition>
+			<item>⁠Contact directory: the contacts of a category show as cards, with their image and clickable numbers; subcategories come before the contacts.</item>
+			<item>⁠Announcement panel in alert colours: classes popup--alerte, popup--erreur, popup--info, popup--succes and popup--grand. The most serious box it contains sets its colour.</item>
+			<item>⁠Style Details tab: the « Joomanji updates » box lists the pending updates of your Joomanji products, with an « Update all » button. Joomla does the update.</item>
+		</addition>
+		<change>
+			<item>⁠Maintenance page: messages (wrong username, etc.) show in a dialog.</item>
+			<item>⁠Tables written in the editor take the design of Corpus tables.</item>
+			<item>⁠Frontend editing: the module pencil only appears on hover or with the keyboard, and no longer covers the text.</item>
+			<item>⁠A band whose modules are all desktop-only, or mobile-only, is hidden with them.</item>
+		</change>
+		<fix>
+			<item>⁠The Layout tab diagram is no longer crossed out on a style never saved.</item>
+			<item>⁠Contact page: the « Links » heading no longer shows when no link is filled in.</item>
+			<item>⁠Search results: no more double rule or extra separators.</item>
+		</fix>
+		<note>
+			<item>⁠Requires Joomla 6.2 or newer. Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_corpus</element>
+		<type>package</type>
 		<version>2.1.705</version>
 		<addition>
 			<item>⁠“Enlarge images on click” setting (next to the Print, Email and Share buttons): images placed in a figure in an article open large, with their caption, and you can move from one to the next.</item>

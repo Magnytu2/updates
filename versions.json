@@ -1,14 +1,18 @@
 {
-  "mis_a_jour": "2026-10-23",
+  "mis_a_jour": "2026-10-30",
   "produits": [
     {
       "cle": "corpus",
       "nom": "Corpus",
-      "fichier": "pkg_corpus-2.1.705.zip",
-      "version": "2.1.705",
-      "date": "2026-10-23",
+      "fichier": "pkg_corpus-2.1.818.zip",
+      "version": "2.1.818",
+      "date": "2026-10-30",
       "changelog": "pkg_corpus-changelog.xml",
       "historique": [
+        {
+          "version": "2.1.818",
+          "date": "2026-10-30"
+        },
         {
           "version": "2.1.705",
           "date": "2026-10-23"
@@ -16,10 +20,6 @@
         {
           "version": "2.1.704",
           "date": "2026-10-23"
-        },
-        {
-          "version": "2.1.684",
-          "date": "2026-10-16"
         }
       ],
       "changelogs": {
@@ -29,11 +29,15 @@
     {
       "cle": "astus",
       "nom": "Astus",
-      "fichier": "pkg_astus-2.1.204.zip",
-      "version": "2.1.204",
-      "date": "2026-10-23",
+      "fichier": "pkg_astus-2.1.300.zip",
+      "version": "2.1.300",
+      "date": "2026-10-30",
       "changelog": "pkg_astus-changelog.xml",
       "historique": [
+        {
+          "version": "2.1.300",
+          "date": "2026-10-30"
+        },
         {
           "version": "2.1.204",
           "date": "2026-10-23"
@@ -41,10 +45,6 @@
         {
           "version": "2.1.186",
           "date": "2026-10-16"
-        },
-        {
-          "version": "2.1.183",
-          "date": "2026-10-09"
         }
       ],
       "changelogs": {
@@ -54,11 +54,15 @@
     {
       "cle": "opus",
       "nom": "Opus",
-      "fichier": "pkg_opus-1.5.931.zip",
-      "version": "1.5.931",
-      "date": "2026-10-23",
+      "fichier": "pkg_opus-1.6.006.zip",
+      "version": "1.6.006",
+      "date": "2026-10-30",
       "changelog": "pkg_opus-changelog.xml",
       "historique": [
+        {
+          "version": "1.6.006",
+          "date": "2026-10-30"
+        },
         {
           "version": "1.5.931",
           "date": "2026-10-23"
@@ -66,10 +70,6 @@
         {
           "version": "1.5.930",
           "date": "2026-10-23"
-        },
-        {
-          "version": "1.5.655",
-          "date": "2026-10-17"
         }
       ],
       "changelogs": {
@@ -79,11 +79,15 @@
     {
       "cle": "formulus",
       "nom": "Formulus",
-      "fichier": "pkg_formulus-1.0.602.zip",
-      "version": "1.0.602",
-      "date": "2026-10-23",
+      "fichier": "pkg_formulus-1.0.733.zip",
+      "version": "1.0.733",
+      "date": "2026-10-30",
       "changelog": "pkg_formulus-changelog.xml",
       "historique": [
+        {
+          "version": "1.0.733",
+          "date": "2026-10-30"
+        },
         {
           "version": "1.0.602",
           "date": "2026-10-23"
@@ -91,10 +95,6 @@
         {
           "version": "1.0.509",
           "date": "2026-10-17"
-        },
-        {
-          "version": "1.0.508",
-          "date": "2026-10-16"
         }
       ],
       "changelogs": {
@@ -104,11 +104,15 @@
     {
       "cle": "iris",
       "nom": "Iris",
-      "fichier": "pkg_iris-3.0.210.zip",
-      "version": "3.0.210",
-      "date": "2026-10-23",
+      "fichier": "pkg_iris-3.0.302.zip",
+      "version": "3.0.302",
+      "date": "2026-10-30",
       "changelog": "pkg_iris-changelog.xml",
       "historique": [
+        {
+          "version": "3.0.302",
+          "date": "2026-10-30"
+        },
         {
           "version": "3.0.210",
           "date": "2026-10-23"
@@ -116,10 +120,6 @@
         {
           "version": "3.0.067",
           "date": "2026-10-17"
-        },
-        {
-          "version": "3.0.066",
-          "date": "2026-10-16"
         }
       ],
       "changelogs": {
@@ -129,14 +129,18 @@
     {
       "cle": "markus",
       "nom": "Markus",
-      "fichier": "plg_editors_markus-1.0.100.zip",
-      "version": "1.0.100",
-      "date": "2026-10-23",
+      "fichier": "plg_editors_markus-1.0.201.zip",
+      "version": "1.0.201",
+      "date": "2026-10-30",
       "changelog": "plg_editors_markus-changelog.xml",
       "changelogs": {
         "en-GB": "plg_editors_markus-changelog-en.xml"
       },
       "historique": [
+        {
+          "version": "1.0.201",
+          "date": "2026-10-30"
+        },
         {
           "version": "1.0.100",
           "date": "2026-10-23"
@@ -150,11 +154,15 @@
     {
       "cle": "tikus",
       "nom": "Tikus",
-      "fichier": "pkg_tikus-2.9.012.zip",
-      "version": "2.9.012",
-      "date": "2026-10-16",
+      "fichier": "pkg_tikus-2.9.100.zip",
+      "version": "2.9.100",
+      "date": "2026-10-30",
       "changelog": "pkg_tikus-changelog.xml",
       "historique": [
+        {
+          "version": "2.9.100",
+          "date": "2026-10-30"
+        },
         {
           "version": "2.9.012",
           "date": "2026-10-16"
@@ -162,10 +170,6 @@
         {
           "version": "2.9.011",
           "date": "2026-10-09"
-        },
-        {
-          "version": "2.9.005",
-          "date": "2026-10-01"
         }
       ]
     },

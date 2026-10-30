@@ -11,6 +11,21 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>markus</element>
 		<type>plugin</type>
+		<version>1.0.201</version>
+		<addition>
+			<item>⁠A welcome page in the « Plugin » tab of the settings: version, presentation, links to the manual, support and download.</item>
+			<item>⁠On this page, the « Joomanji updates » box lists the pending updates of your Joomanji products, with an « Update all » button. Joomla does the update.</item>
+		</addition>
+		<change>
+			<item>⁠The settings move to the « Settings » tab. The editor’s Settings button leads straight there.</item>
+		</change>
+		<note>
+			<item>⁠Your settings are kept.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>markus</element>
+		<type>plugin</type>
 		<version>1.0.100</version>
 		<addition>
 			<item>⁠Find and replace (magnifier, Ctrl+F, Ctrl+H).</item>

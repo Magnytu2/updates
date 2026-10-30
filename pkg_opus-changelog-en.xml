@@ -11,6 +11,23 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_opus</element>
 		<type>package</type>
+		<version>1.6.006</version>
+		<addition>
+			<item>⁠On the site, an « Edit this block » pencil on each Opus module loaded in an article opens the large Opus window.</item>
+			<item>⁠Presentation tab: the « Joomanji updates » box lists the pending updates of your Joomanji products, with an « Update all » button. Joomla does the update.</item>
+		</addition>
+		<fix>
+			<item>⁠Calendar: « Also on » writes the date the same way on load and on click, with the year.</item>
+			<item>⁠After an update, the browser no longer keeps old Opus files: changes show straight away.</item>
+			<item>⁠Two Opus modules loaded one after the other in an article have the normal gap between them.</item>
+		</fix>
+		<note>
+			<item>⁠Nothing to set again.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_opus</element>
+		<type>package</type>
 		<version>1.5.931</version>
 		<fix>
 			<item>⁠The update records of your Joomanji products are checked on install: a product that had lost its own (Iris, for example, which no longer received updates) gets it back.</item>

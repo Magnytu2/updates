@@ -11,6 +11,26 @@ apostrophes, never the entity, under 290 bytes.
 	<changelog>
 		<element>pkg_formulus</element>
 		<type>package</type>
+		<version>1.0.733</version>
+		<addition>
+			<item>⁠The newsletter: for each article published in a watched category, subscribers to that topic receive an email with the title, introduction, image and a button to read it.</item>
+			<item>⁠Sign-up through a Formulus form, « Newsletter topics » field, double opt-in, one-click unsubscribe in every email.</item>
+			<item>⁠« Newsletter: Subscribers » and « Newsletter: Sendings » screens: follow each article, test to your own address, retry failures, export.</item>
+			<item>⁠« Invite a group »: each account of a user group receives its invitation and subscribes in one click, with its address.</item>
+			<item>⁠Edit a form from the site.</item>
+			<item>⁠Home page: the « Joomanji updates » box lists the pending updates of your Joomanji products, with an « Update all » button. Joomla does the update.</item>
+		</addition>
+		<change>
+			<item>⁠« Survey » template: a consent box replaces the terms of sale box.</item>
+			<item>⁠Clearer field errors, and a message when a required field is left empty.</item>
+		</change>
+		<note>
+			<item>⁠The newsletter is off by default: switch it on in the Formulus Options, « Newsletter » tab. It relies on the Joomla task scheduler.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_formulus</element>
+		<type>package</type>
 		<version>1.0.602</version>
 		<addition>
 			<item>⁠“Texts” tab (formerly “Form”): a “Closing text” shows under the form and disappears after a successful submission.</item>

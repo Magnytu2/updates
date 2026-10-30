@@ -22,12 +22,12 @@ Le jour de Joomla 6.3.0 : premiere entree 6\.[3-9], seconde 6\.2, et la
 <element>pkg_iris</element>
 <type>package</type>
 <client>site</client>
-<version>3.0.210</version>
+<version>3.0.302</version>
 <downloads>
-<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.210.zip</downloadurl>
+<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_iris-3.0.302.zip</downloadurl>
 </downloads>
 <changelogurl>https://magnytu2.github.io/updates/pkg_iris-changelog.xml</changelogurl>
-<sha256>50319acee9840635e52112ac3f7ccf983d215262d46cf24fa21a105b7d4214dc</sha256>
+<sha256>2b31853279c52e1af83f58dcd75b611609dca1138347ae69d404c7cd85782bd6</sha256>
 <tags>
 <tag>stable</tag>
 </tags>
