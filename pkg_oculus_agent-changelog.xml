@@ -13,6 +13,17 @@ premier caractère non ASCII (vu le 10 octobre 2026 sur joomanji.eu).
 	<changelog>
 		<element>pkg_oculus_agent</element>
 		<type>package</type>
+		<version>2.1.3</version>
+		<change>
+			<item>⁠Une sauvegarde de moins de quatorze jours suffit désormais pour mettre à jour un composant à distance, au lieu de sept.</item>
+		</change>
+		<note>
+			<item>⁠Le site garde l’ancien seuil de sept jours tant qu’il n’a pas reçu cette version.</item>
+		</note>
+	</changelog>
+	<changelog>
+		<element>pkg_oculus_agent</element>
+		<type>package</type>
 		<version>2.1.2</version>
 		<fix>
 			<item>⁠Le bouclier Oculus est appliqué même quand le site est en maintenance : il n’est plus annulé à tort.</item>

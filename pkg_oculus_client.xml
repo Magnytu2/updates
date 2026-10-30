@@ -13,7 +13,14 @@
 	2.1.2, le 25 octobre 2026 : le bouclier .htaccess n'est plus annule a tort
 	sur un site en maintenance (tekmad-aquanature) ni sur un site qui ne se
 	joint pas lui-meme par son nom (bellefeuille). Etat de la page d'accueil
-	compare avant et apres l'ecriture. Teste d'abord sur bellefeuille.joomanji.eu.
+	compare avant et apres l'ecriture.
+
+	2.1.3, le 30 octobre 2026 : le garde-fou de sauvegarde exige desormais une
+	sauvegarde de moins de QUATORZE jours (168 h deviennent 336 h) pour les mises
+	a jour a distance de composants, paquets et templates tiers. Sept jours
+	tombaient trop juste pour un rythme de sauvegarde hebdomadaire. Le module
+	central annonce le meme chiffre a partir de mod_oculus 2.5.6 : un site reste
+	sur l'ancien seuil tant qu'il n'a pas recu cette version.
 
 	Ce fichier sert les rares sites equipes du paquet pkg_oculus_client. Le parc
 	est servi par pkg_oculus_agent.xml : les publier ensemble, meme contenu.
@@ -25,12 +32,12 @@
 		<element>pkg_oculus_client</element>
 		<type>package</type>
 		<client>site</client>
-		<version>2.1.2</version>
+		<version>2.1.3</version>
 		<downloads>
-			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_oculus_client-2.1.2.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://magnytu2.github.io/updates/pkg_oculus_client-2.1.3.zip</downloadurl>
 		</downloads>
 		<changelogurl>https://magnytu2.github.io/updates/pkg_oculus_client-changelog.xml</changelogurl>
-		<sha256>d5b29f5f3ad8766139882f650b892147a4856bbf180cf7a25106161bb8d24e64</sha256>
+		<sha256>1af10c67b5332dce2166428632e70a1efd15c1936310b8f13a041fcbdf1c00cf</sha256>
 		<tags><tag>stable</tag></tags>
 		<maintainer>Joomanji</maintainer>
 		<maintainerurl>https://joomanji.eu</maintainerurl>
